@@ -9,22 +9,22 @@
           {{ $t('admin.api_endpoints.description') }}
         </p>
       </div>
-      <div class="mt-4 sm:mt-0">
-        <div class="relative rounded-md shadow-sm">
-          <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-            <MagnifyingGlassIcon class="h-5 w-5 text-gray-400" aria-hidden="true" />
-          </div>
-          <input
-            v-model="searchQuery"
-            type="text"
-            class="block w-full rounded-md border-0 py-1.5 pl-10 pr-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 dark:bg-gray-700 dark:text-white dark:ring-gray-600 dark:placeholder-gray-400"
-            :placeholder="$t('admin.api_endpoints.search_placeholder')"
-          />
-        </div>
+      <div class="mt-4 sm:mt-0 w-full sm:w-80">
+        <BaseInput
+          v-model="searchQuery"
+          :placeholder="$t('admin.api_endpoints.search_placeholder')"
+          :prefix-icon="MagnifyingGlassIcon"
+        />
       </div>
     </div>
     
     <div class="mt-8 flex flex-col">
+      <div v-if="loading" class="px-4 py-2 mb-3 text-sm rounded bg-blue-50 text-blue-800 dark:bg-blue-900/30 dark:text-blue-200">
+        Loading API routes...
+      </div>
+      <div v-if="error" class="px-4 py-2 mb-3 text-sm rounded bg-red-50 text-red-800 dark:bg-red-900/30 dark:text-red-200">
+        Failed to load routes: {{ error }}
+      </div>
       <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
           <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
@@ -280,10 +280,14 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue';
+import axios from 'axios';
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue';
 import { XMarkIcon, MagnifyingGlassIcon, DocumentDuplicateIcon } from '@heroicons/vue/24/outline';
+import BaseInput from '@/components/ui/BaseInput.vue';
 
 const searchQuery = ref('');
+const loading = ref(false);
+const error = ref('');
 const isModalOpen = ref(false);
 const selectedEndpoint = ref(null);
 const currentTab = ref('Parameters');
@@ -673,14 +677,15 @@ const filteredEndpoints = computed(() => {
 // Dynamically load implemented API routes from backend controller
 const loadRoutes = async () => {
   try {
-    const res = await fetch('/api/admin/routes', {
-      headers: { 'Accept': 'application/json' },
-      credentials: 'include',
+    loading.value = true;
+    error.value = '';
+    // Ensure Authorization header even if store wasn't initialized yet
+    const token = localStorage.getItem('token');
+    const { data } = await axios.get('/api/admin/routes', {
+      headers: token ? { Authorization: `Bearer ${token}` } : undefined,
     });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const json = await res.json();
-    const list = Array.isArray(json.data) ? json.data : [];
-    endpoints.value = list.map(r => ({
+    const list = Array.isArray(data?.data) ? data.data : [];
+    endpoints.value = list.map((r) => ({
       key: `${(r.method || 'GET')}_${r.path || ''}`
         .replace(/[^a-zA-Z0-9]+/g, '_')
         .replace(/^_+|_+$/g, '')
@@ -697,6 +702,10 @@ const loadRoutes = async () => {
     }));
   } catch (e) {
     console.error('Failed to load routes', e);
+    error.value = e?.response?.data?.message || e?.message || 'Unknown error';
+  }
+  finally {
+    loading.value = false;
   }
 };
 

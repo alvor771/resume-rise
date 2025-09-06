@@ -13,7 +13,11 @@ module.exports = {
           'success-green': '#10B981',
           'warning-red': '#EF4444',
         },
+        backgroundImage: {
+          'gradient-card': 'linear-gradient(145deg, hsl(240 10% 7% / 0.8), hsl(240 10% 10% / 0.9))',
+        },
       },
     },
     plugins: [],
+    darkMode: 'class',
   }

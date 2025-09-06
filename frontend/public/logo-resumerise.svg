@@ -1,0 +1,107 @@
+<svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for the document -->
+    <linearGradient id="docGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    
+    <!-- Gradient for waves/arrow -->
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    
+    <!-- Subtle shadow filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#00000015" />
+    </filter>
+  </defs>
+  
+  <!-- Variation 1: Document with Rising Arrow (Default) -->
+  <g id="variation1" class="logo-variation" style="display: block;">
+    <!-- Document base -->
+    <rect x="50" y="50" width="150" height="180" rx="12" fill="url(#docGradient)" filter="url(#shadow)" />
+    
+    <!-- Document lines -->
+    <rect x="75" y="90" width="100" height="8" rx="2" fill="white" fill-opacity="0.8" />
+    <rect x="75" y="110" width="80" height="6" rx="2" fill="white" fill-opacity="0.8" />
+    <rect x="75" y="125" width="90" height="6" rx="2" fill="white" fill-opacity="0.8" />
+    <rect x="75" y="155" width="70" height="6" rx="2" fill="white" fill-opacity="0.8" />
+    
+    <!-- Rising arrow -->
+    <path d="M100,170 L125,200 L150,170" 
+          stroke="white" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none" />
+  </g>
+  
+  <!-- Variation 2: Abstract Wave Document -->
+  <g id="variation2" class="logo-variation" style="display: none;">
+    <!-- Wave document base -->
+    <path d="M60,70 C80,40 120,40 140,70 L190,70 C200,70 210,80 210,90 L210,190 C210,200 200,210 190,210 L60,210 C50,210 40,200 40,190 L40,90 C40,80 50,70 60,70 Z" 
+          fill="url(#docGradient)" 
+          filter="url(#shadow)" />
+    
+    <!-- Wave lines -->
+    <path d="M70,100 L180,100" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M70,130 L150,130" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M70,160 L140,160" stroke="white" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Abstract wave -->
+    <path d="M60,70 C80,40 120,40 140,70" 
+          stroke="white" 
+          stroke-width="4" 
+          fill="none" 
+          stroke-linecap="round" />
+  </g>
+  
+  <!-- Variation 3: Minimalist Document with Growth -->
+  <g id="variation3" class="logo-variation" style="display: none;">
+    <!-- Document outline -->
+    <rect x="60" y="60" width="130" height="160" rx="8" fill="white" stroke="url(#docGradient)" stroke-width="4" />
+    
+    <!-- Growth arrow -->
+    <path d="M95,90 L125,60 L155,90 M125,60 L125,190" 
+          stroke="url(#waveGradient)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none" />
+    
+    <!-- Decorative elements -->
+    <circle cx="125" cy="100" r="3" fill="#4F46E5" />
+    <circle cx="125" cy="120" r="3" fill="#6366F1" />
+    <circle cx="125" cy="140" r="3" fill="#818CF8" />
+  </g>
+  
+  <style>
+    /* Animation for the logo */
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    .logo-variation {
+      animation: float 6s ease-in-out infinite;
+    }
+  </style>
+  
+  <script>
+    // Cycle through logo variations every 5 seconds
+    document.addEventListener('DOMContentLoaded', function() {
+      const variations = document.querySelectorAll('.logo-variation');
+      let current = 0;
+      
+      function showNextVariation() {
+        variations[current].style.display = 'none';
+        current = (current + 1) % variations.length;
+        variations[current].style.display = 'block';
+      }
+      
+      // Change variation every 5 seconds
+      setInterval(showNextVariation, 5000);
+    });
+  </script>
+</svg>

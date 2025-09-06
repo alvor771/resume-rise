@@ -1,0 +1,35 @@
+<svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Document lines -->
+  <path d="M12 16H20M12 20H28M12 24H24" stroke="url(#gradient1)" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- Central document outline -->
+  <rect x="13" y="9" width="14" height="22" rx="4" stroke="url(#gradient1)" stroke-width="3"/>
+  <circle cx="20" cy="14" r="2" fill="url(#gradient1)"/>
+
+  <!-- S-shaped swap arrows (refresh style, outside document) -->
+  <g filter="url(#glow)">
+    <!-- Top-right arc (outside the document) -->
+    <path d="M29 8 A14 14 0 0 0 32 20" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Top-right arrowhead -->
+    <path d="M29 8 l-3 -3 M29 8 l3 -3" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Bottom-left arc (outside the document) -->
+    <path d="M11 32 A14 14 0 0 0 8 20" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Bottom-left arrowhead -->
+    <path d="M11 32 l3 3 M11 32 l-3 3" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <defs>
+    <!-- Subtle neon glow for arrows -->
+    <filter id="glow" x="0" y="0" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="gradient1" x1="4" y1="4" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+</svg>

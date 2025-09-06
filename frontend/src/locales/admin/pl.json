@@ -1,0 +1,250 @@
+{
+  "title": "Panel administracyjny",
+  "dashboard": {
+    "title": "Kokpit",
+    "overview": "Przegląd",
+    "recentActivity": "Ostatnia aktywność",
+    "statistics": "Statystyki"
+  },
+  "api_endpoints": {
+    "title": "Punkty końcowe API",
+    "description": "Lista wszystkich dostępnych punktów końcowych API do integracji",
+    "search_placeholder": "Wyszukaj punkty końcowe...",
+    "no_results": "Nie znaleziono pasujących punktów końcowych",
+    "method": "Metoda",
+    "endpoint": "Punkt końcowy",
+    "auth": "Uwierzytelnianie",
+    "required": "Wymagane",
+    "none": "Brak",
+    "yes": "Tak",
+    "no": "Nie",
+    "parameters": "Parametry żądania",
+    "parameter": "Parametr",
+    "type": "Typ",
+    "response": "Przykładowa odpowiedź",
+    "example": "Przykładowe żądanie",
+    "curl": "cURL",
+    "request_body": "Treść żądania",
+    "no_parameters": "Ten punkt końcowy nie wymaga parametrów.",
+    "no_response": "Brak dostępnego przykładu odpowiedzi.",
+    "login": {
+      "description": "Uwierzytelnianie użytkownika i uzyskiwanie tokenu dostępu"
+    },
+    "register": {
+      "description": "Tworzenie nowego konta użytkownika"
+    },
+    "logout": {
+      "description": "Wylogowanie użytkownika"
+    },
+    "user_profile": {
+      "description": "Pobieranie profilu zalogowanego użytkownika"
+    },
+    "update_profile": {
+      "description": "Aktualizacja informacji o profilu użytkownika"
+    },
+    "list_resumes": {
+      "description": "Pobieranie listy życiorysów użytkownika"
+    },
+    "create_resume": {
+      "description": "Tworzenie nowego życiorysu"
+    },
+    "get_resume": {
+      "description": "Pobieranie życiorysu według ID"
+    },
+    "update_resume": {
+      "description": "Aktualizacja informacji o życiorysie"
+    },
+    "delete_resume": {
+      "description": "Usuwanie życiorysu"
+    },
+    "list_templates": {
+      "description": "Pobieranie listy dostępnych szablonów"
+    },
+    "get_template": {
+      "description": "Pobieranie szablonu według ID"
+    }
+  },
+  "users": {
+    "title": "Użytkownicy",
+    "list": "Lista użytkowników",
+    "create": "Utwórz użytkownika",
+    "edit": "Edytuj użytkownika",
+    "delete": "Usuń użytkownika",
+    "newUser": "Utwórz nowego użytkownika"
+  },
+  "resumes": {
+    "title": "Życiorysy",
+    "list": "Lista życiorysów",
+    "view": "Podgląd życiorysu",
+    "create": "Utwórz życiorys",
+    "edit": "Edytuj życiorys",
+    "delete": "Usuń życiorys"
+  },
+  "templates": {
+    "premium": "Premium",
+    "free": "Darmowy",
+    "public": "Publiczny",
+    "private": "Prywatny",
+    "preview": "Podgląd szablonu",
+    "preview_description": "Tak będzie wyglądał szablon po zastosowaniu",
+    "ratings": "ocen",
+    "created_by": "Utworzony przez",
+    "created_at": "Data utworzenia",
+    "no_ratings": "Brak ocen",
+    "ratings_count": "{count} ocena | {count} oceny | {count} ocen",
+    "category": "Kategoria",
+    "uncategorized": "Bez kategorii",
+    "description": "Opis",
+    "no_description": "Brak opisu",
+    "usage_count": "Liczba użyć",
+    "purchase_count": "Zakupów",
+    "controls": "Ustawienia szablonu",
+    "visibility": "Widoczność",
+    "visibility_description": "Ustaw widoczność szablonu dla wszystkich użytkowników",
+    "premium_status": "Status premium",
+    "premium_description": "Włącz funkcje premium dla tego szablonu",
+    "price": "Cena",
+    "usage_statistics": "Statystyki użycia",
+    "usage_chart_placeholder": "Wykres użycia w czasie pojawi się tutaj",
+    "downloads_chart_placeholder": "Wykres pobrań w czasie pojawi się tutaj",
+    "saved_successfully": "Szablon został zapisany!",
+    "save_error": "Błąd podczas zapisywania szablonu. Spróbuj ponownie.",
+    "title": "Szablony",
+    "list": "Lista szablonów",
+    "view": "Podgląd szablonu",
+    "templateDetails": "Szczegóły szablonu",
+    "new": "Nowy szablon",
+    "edit": "Edytuj szablon",
+    "delete": "Usuń szablon",
+    "manage_templates": "Zarządzanie szablonami życiorysów",
+    "new_template": "Nowy szablon",
+    "create_new": "Utwórz nowy szablon od podstaw",
+    "new_template_btn": "Nowy szablon",
+    "create_new_desc": "Utwórz nowy szablon od podstaw",
+    "version": "Wersja",
+    "status": {
+      "active": "Aktywny",
+      "inactive": "Nieaktywny",
+      "draft": "Szkic"
+    },
+    "actions": {
+      "edit": "Edytuj",
+      "duplicate": "Duplikuj",
+      "delete": "Usuń",
+      "preview": "Podgląd"
+    },
+    "delete_confirm": {
+      "title": "Usuwanie szablonu",
+      "message": "Czy na pewno chcesz usunąć ten szablon? Tej czynności nie można cofnąć.",
+      "cancel": "Anuluj",
+      "confirm": "Usuń"
+    },
+    "uses": "użycia"
+  },
+  "activityLog": {
+    "title": "Dziennik aktywności",
+    "description": "Przeglądanie zdarzeń systemowych i działań użytkowników"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "general": "Ustawienia główne",
+    "appearance": "Wygląd",
+    "notifications": "Powiadomienia",
+    "security": "Bezpieczeństwo"
+  },
+  "nav": {
+    "dashboard": "Panel główny",
+    "users": "Użytkownicy",
+    "resumes": "CV",
+    "templates": "Szablony",
+    "apiEndpoints": "Punkty końcowe API",
+    "activityLog": "Dziennik aktywności",
+    "settings": "Ustawienia"
+  },
+  "profile": {
+    "title": "Mój profil",
+    "edit": "Edytuj profil",
+    "changePassword": "Zmień hasło"
+  },
+  "common": {
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "view": "Podgląd",
+    "create": "Utwórz",
+    "search": "Szukaj...",
+    "actions": "Akcje",
+    "status": "Status",
+    "createdAt": "Utworzono",
+    "updatedAt": "Zaktualizowano",
+    "noData": "Brak danych",
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "success": "Sukces",
+    "confirmDelete": "Czy na pewno chcesz usunąć ten element?",
+    "yes": "Tak",
+    "no": "Nie",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "previous": "Poprzedni",
+    "close": "Zamknij",
+    "selectOption": "Wybierz opcję",
+    "all": "Wszystkie"
+  },
+  "menu": {
+    "title": "Zarządzanie Menu",
+    "description": "Zarządzaj nawigacją strony",
+    "empty": {
+      "title": "Brak pozycji w menu",
+      "description": "Dodaj swoją pierwszą pozycję menu"
+    },
+    "buttons": {
+      "addNew": "Dodaj nowe",
+      "addFirstItem": "Dodaj pierwszą pozycję",
+      "expand": "Rozwiń",
+      "collapse": "Zwiń",
+      "save": "Zapisz",
+      "cancel": "Anuluj",
+      "delete": "Usuń",
+      "edit": "Edytuj"
+    },
+    "form": {
+      "title": "Tytuł",
+      "path": "Ścieżka",
+      "icon": "Ikona",
+      "layout": "Układ",
+      "parent": "Pozycja nadrzędna",
+      "order": "Kolejność",
+      "isVisible": "Widoczność",
+      "isGuestOnly": "Tylko dla gości",
+      "isAuthOnly": "Tylko dla zalogowanych",
+      "permissions": "Wymagane uprawnienia",
+      "noParent": "Brak rodzica (Poziom główny)",
+      "selectIcon": "Wybierz ikonę",
+      "selectLayout": "Wybierz układ",
+      "validation": {
+        "titleRequired": "Tytuł jest wymagany",
+        "pathRequired": "Ścieżka jest wymagana",
+        "invalidPath": "Ścieżka musi zaczynać się od /"
+      }
+    },
+    "delete": {
+      "title": "Usuń pozycję menu",
+      "message": "Czy na pewno chcesz usunąć '{title}'? Tej czynności nie można cofnąć.",
+      "success": "Pozycja menu została usunięta"
+    },
+    "save": {
+      "success": "Pozycja menu została zapisana",
+      "error": "Błąd podczas zapisywania pozycji menu"
+    },
+    "reorder": {
+      "success": "Kolejność menu została zaktualizowana",
+      "error": "Błąd podczas aktualizacji kolejności menu"
+    },
+    "status": {
+      "visible": "Widoczny",
+      "hidden": "Ukryty"
+    }
+  }
+}

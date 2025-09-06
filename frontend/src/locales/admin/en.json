@@ -1,0 +1,316 @@
+{
+  "title": "Admin Panel",
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "recentActivity": "Recent Activity",
+    "statistics": "Statistics"
+  },
+  "api_endpoints": {
+    "title": "API Endpoints",
+    "description": "List of all available API endpoints for integration",
+    "search_placeholder": "Search endpoints...",
+    "no_results": "No endpoints found matching your search",
+    "method": "Method",
+    "endpoint": "Endpoint",
+    "auth": "Authentication",
+    "required": "Required",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "parameters": "Request Parameters",
+    "parameter": "Parameter",
+    "type": "Type",
+    "response": "Response Example",
+    "example": "Example Request",
+    "curl": "cURL",
+    "request_body": "Request Body",
+    "no_parameters": "This endpoint does not require any parameters.",
+    "no_response": "No response example available.",
+    "login": {
+      "description": "Authenticate user and get access token"
+    },
+    "register": {
+      "description": "Create a new user account"
+    },
+    "logout": {
+      "description": "Invalidate user session"
+    },
+    "user_profile": {
+      "description": "Get authenticated user's profile"
+    },
+    "update_profile": {
+      "description": "Update user profile information"
+    },
+    "list_resumes": {
+      "description": "Get list of user's resumes"
+    },
+    "create_resume": {
+      "description": "Create a new resume"
+    },
+    "get_resume": {
+      "description": "Get resume by ID"
+    },
+    "update_resume": {
+      "description": "Update resume information"
+    },
+    "delete_resume": {
+      "description": "Delete a resume"
+    },
+    "list_templates": {
+      "description": "Get list of available templates"
+    },
+    "get_template": {
+      "description": "Get template by ID"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "list": "User List",
+    "create": "Create User",
+    "edit": "Edit User",
+    "delete": "Delete User",
+    "newUser": "Create New User"
+  },
+  "resumes": {
+    "title": "Resumes",
+    "list": "Resume List",
+    "view": "View Resume",
+    "create": "Create Resume",
+    "edit": "Edit Resume",
+    "delete": "Delete Resume"
+  },
+  "templates": {
+    "premium": "Premium",
+    "free": "Free",
+    "public": "Public",
+    "private": "Private",
+    "created_by": "Created by",
+    "created_at": "Created at",
+    "no_ratings": "No ratings yet",
+    "ratings_count": "{count} rating | {count} ratings",
+    "ratings": "ratings",
+    "category": "Category",
+    "uncategorized": "Uncategorized",
+    "description": "Description",
+    "no_description": "No description available",
+    "usage_count": "Usage Count",
+    "purchase_count": "Purchases",
+    "controls": "Template Controls",
+    "visibility": "Visibility",
+    "visibility_description": "Make this template visible to all users",
+    "premium_status": "Premium Status",
+    "premium_description": "Enable premium features for this template",
+    "price": "Price",
+    "usage_statistics": "Usage Statistics",
+    "usage_chart_placeholder": "Usage over time chart will be displayed here",
+    "downloads_chart_placeholder": "Downloads over time chart will be displayed here",
+    "saved_successfully": "Template saved successfully!",
+    "save_error": "Error saving template. Please try again.",
+    "title": "Templates",
+    "list": "Template List",
+    "view": "View Template",
+    "templateDetails": "Template Details",
+    "new": "New Template",
+    "edit": "Edit Template",
+    "manage_templates": "Manage your resume templates",
+    "new_template": "New Template",
+    "create_new": "Create a new template from scratch",
+    "version": "Version",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "draft": "Draft"
+    },
+    "new_template_btn": "New Template",
+    "create_new_desc": "Create a new template from scratch",
+    "actions": {
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "delete": "Delete",
+      "preview": "Preview"
+    },
+    "delete_confirm": {
+      "title": "Delete Template",
+      "message": "Are you sure you want to delete this template? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "preview": "Template Preview",
+    "preview_description": "This is how the template will look when used",
+    "uses": "uses"
+  },
+  "activityLog": {
+    "title": "Activity Log",
+    "description": "View system activities and user actions"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General Settings",
+    "appearance": "Appearance",
+    "notifications": "Notifications",
+    "security": "Security"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "rbac": "Access Control",
+    "resumes": "Resumes",
+    "templates": "Templates",
+    "apiEndpoints": "API Endpoints",
+    "activityLog": "Activity Log",
+    "settings": "Settings",
+    "menu": "Menu",
+    "companies": "Companies",
+    "vacancies": "Vacancies",
+    "ui-components": "UI Components"
+  },
+
+  "vacancies": {
+    "title": "Vacancies",
+    "createVacancy": "Create Vacancy",
+    "editVacancy": "Edit Vacancy",
+    "publishSettings": "Publish Settings",
+    "metadata": "Metadata",
+    "fields": {
+      "title": "Job Title",
+      "company": "Company",
+      "description": "Job Description",
+      "employment_type": "Employment Type",
+      "experience_level": "Experience Level",
+      "salary_min": "Minimum Salary",
+      "salary_max": "Maximum Salary",
+      "salary_currency": "Currency",
+      "location": "Location",
+      "is_remote": "Remote Work Available",
+      "is_active": "Active",
+      "is_published": "Published",
+      "published_at": "Publish Date",
+      "expires_at": "Expiry Date",
+      "slug": "URL Slug",
+      "views": "Views",
+      "applications_count": "Applications",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    },
+    "employmentTypes": {
+      "full_time": "Full-time",
+      "part_time": "Part-time",
+      "contract": "Contract",
+      "temporary": "Temporary",
+      "internship": "Internship",
+      "freelance": "Freelance"
+    },
+    "experienceLevels": {
+      "intern": "Intern",
+      "entry": "Entry Level",
+      "mid": "Mid Level",
+      "senior": "Senior",
+      "lead": "Lead",
+      "executive": "Executive"
+    },
+    "actions": {
+      "save": "Save",
+      "saveDraft": "Save as Draft",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "messages": {
+      "saved": "Vacancy saved successfully",
+      "published": "Vacancy published successfully",
+      "unpublished": "Vacancy unpublished successfully",
+      "deleted": "Vacancy deleted successfully",
+      "confirmDelete": "Are you sure you want to delete this vacancy?",
+      "noCompanies": "No companies found. Please create a company first."
+    }
+  },
+
+  "profile": {
+    "title": "My Profile",
+    "edit": "Edit Profile",
+    "changePassword": "Change Password"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "search": "Search...",
+    "actions": "Actions",
+    "status": "Status",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "noData": "No data available",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "selectOption": "Select an option",
+    "all": "All"
+  },
+  "menu": {
+    "title": "Menu Management",
+    "description": "Manage your website's navigation menu",
+    "empty": {
+      "title": "No menu items yet",
+      "description": "Get started by creating your first menu item"
+    },
+    "buttons": {
+      "addNew": "Add New",
+      "addFirstItem": "Add First Item",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "form": {
+      "title": "Title",
+      "path": "Path",
+      "icon": "Icon",
+      "layout": "Layout",
+      "parent": "Parent Item",
+      "order": "Order",
+      "isVisible": "Visible",
+      "isGuestOnly": "Visible to guests only",
+      "isAuthOnly": "Visible to authenticated users only",
+      "permissions": "Required Permissions",
+      "noParent": "No parent (Top Level)",
+      "selectIcon": "Select an icon",
+      "selectLayout": "Select a layout",
+      "validation": {
+        "titleRequired": "Title is required",
+        "pathRequired": "Path is required",
+        "invalidPath": "Path must start with /"
+      }
+    },
+    "delete": {
+      "title": "Delete Menu Item",
+      "message": "Are you sure you want to delete '{title}'? This action cannot be undone.",
+      "success": "Menu item deleted successfully"
+    },
+    "save": {
+      "success": "Menu item saved successfully",
+      "error": "Error saving menu item"
+    },
+    "reorder": {
+      "success": "Menu order updated successfully",
+      "error": "Error updating menu order"
+    },
+    "status": {
+      "visible": "Visible",
+      "hidden": "Hidden"
+    }
+  }
+}

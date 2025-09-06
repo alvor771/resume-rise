@@ -1,0 +1,1174 @@
+{
+  "app": {
+    "name": "ResumeRise",
+    "tagline": "Take your career to the next level",
+    "description": "Create professional resumes in minutes"
+  },
+  "widget": {
+    "error": {
+      "title": "Error Loading Widget",
+      "message": "We encountered an error while loading this widget.",
+      "retry": "Try Again"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "copy_link": "Copy Link",
+    "link_copied": "Link copied to clipboard",
+    "search": "Search",
+    "search_placeholder": "Search...",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation completed successfully",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "all": "All",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "description": "Description",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "postal_code": "Postal Code",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "results": "results",
+    "per_page": "Per page"
+  },
+  "nav": {
+    "home": "Home",
+    "resumeBuilder": "Resume Builder",
+    "cvBuilder": "CV Builder",
+    "templates": "Templates",
+    "pricing": "Pricing",
+    "helpCenter": "Help Center",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "resumes": "Resumes",
+    "apiEndpoints": "API Endpoints",
+    "activityLog": "Activity Log",
+    "settings": "Settings"
+  },
+  "home": {
+    "templates": {
+      "title": "Popular templates",
+      "subtitle": "Choose a professional template that highlights your strengths"
+    },
+    "features": {
+      "templates": {
+        "title": "Professional Templates",
+        "description": "Choose from a variety of professionally designed templates that highlight your skills and experience"
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Answers to the most popular questions about our service"
+    },
+    "benefits": {
+      "title": "Our advantages",
+      "subtitle": "Why thousands of job seekers choose our service",
+      "items": {
+        "professional": {
+          "title": "Professional templates",
+          "description": "Developed with the requirements of recruiters and ATS systems in mind"
+        },
+        "easy": {
+          "title": "Easy and simple",
+          "description": "Create a resume in 15 minutes without any special skills"
+        },
+        "mobile": {
+          "title": "Adaptive design",
+          "description": "Full version of the website is available on any device"
+        },
+        "download": {
+          "title": "Download in PDF",
+          "description": "Download your resume in PDF format with one click"
+        },
+        "preview": {
+          "title": "Real-time preview",
+          "description": "See how your resume will look like instantly"
+        },
+        "customizable": {
+          "title": "Customizable",
+          "description": "Adjust every element of your resume to your needs"
+        }
+      }
+    },
+    "hero": {
+      "title": "Create a professional resume in minutes",
+      "subtitle": "Stand out from the crowd with our resume builder and find your dream job faster.",
+      "cta": "Create Resume",
+      "badge": "Created with love"
+    },
+    "features": {
+      "title": "Why choose ResumeRise",
+      "subtitle": "Features",
+      "templates": "Professional Templates",
+      "customization": "Easy Customization",
+      "tracking": "Application Tracking",
+      "security": "Data Security",
+      "templatesSection": {
+        "title": "Professional templates",
+        "description": "Choose from dozens of ATS-friendly templates developed by HR specialists."
+      },
+      "easyToUse": {
+        "title": "Easy to use",
+        "description": "Create a professional resume in minutes with our intuitive editor."
+      },
+      "professional": {
+        "title": "Professional result",
+        "description": "Get a polished, professional resume that highlights your strengths."
+      },
+      "collaboration": {
+        "title": "Real-time collaboration",
+        "description": "Work on your resume with career coaches or mentors in real-time."
+      },
+      "analytics": {
+        "title": "Resume analysis",
+        "description": "Get instant feedback on your resume's strengths and weaknesses."
+      },
+      "mobileFriendly": {
+        "title": "Adaptive design",
+        "description": "Create and edit your resume on any device, at any time and in any place."
+      }
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Create a professional resume in 3 simple steps",
+      "steps": {
+        "signup": {
+          "title": "Sign up",
+          "description": "Register for free and start creating your resume instantly."
+        },
+        "selectTemplate": {
+          "title": "Choose a template",
+          "description": "Select from our collection of professional templates."
+        },
+        "customize": {
+          "title": "Customize",
+          "description": "Fill in your information and customize the design to your style."
+        },
+        "download": {
+          "title": "Download and send",
+          "description": "Download your resume in PDF format and start applying for jobs."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What our users say",
+      "subtitle": "Join thousands of professionals who found their dream job with ResumeRise",
+      "alex": {
+        "quote": "I got my dream job at a FAANG company thanks to ResumeRise! The templates are ATS-friendly and the editor is very intuitive."
+      },
+      "sarah": {
+        "quote": "As an HR, I can spot a ResumeRise resume from a mile away - they always look polished and professional."
+      },
+      "david": {
+        "quote": "The analytics feature helped me optimize my resume and after that I got 3x more interview invitations."
+      }
+    },
+    "ctaSection": {
+      "title": "Ready to create a professional resume?",
+      "subtitle": "Join thousands of professionals who found their dream job with ResumeRise"
+    },
+    "cta": {
+      "primary": "Create a resume",
+      "secondary": "Look at templates"
+    }
+  },
+  "cvBuilder": {
+    "title": "CV Builder",
+    "subtitle": "Create a professional CV with our easy-to-use builder",
+    "help": {
+      "title": "Need help creating your CV?",
+      "sections": {
+        "title": "Customizable Sections",
+        "description": "Add, remove, and reorder sections to create a CV that highlights your unique experience and skills."
+      },
+      "templates": {
+        "title": "Professional Templates",
+        "description": "Choose from a variety of professionally designed templates that will make your CV stand out."
+      }
+    }
+  },
+  "resumeBuilder": {
+    "languages": "Languages",
+    "addLanguage": "Add Language",
+    "noLanguagesAdded": "No languages added yet",
+    "language": "Language",
+    "languagePlaceholder": "e.g., English, Spanish, German",
+    "proficiency": "Proficiency Level",
+    "selectProficiency": "Select proficiency",
+    "proficiencyLevels": {
+      "beginner": "Beginner (A1)",
+      "elementary": "Elementary (A2)",
+      "intermediate": "Intermediate (B1)",
+      "upperIntermediate": "Upper Intermediate (B2)",
+      "advanced": "Advanced (C1)",
+      "proficiency": "Proficiency (C2)",
+      "native": "Native"
+    },
+    "removeLanguage": "Remove language"
+  },
+  "auth": {
+    "logout": "Logout",
+    "reset": {
+      "title": "Reset Password",
+      "remembered": "Remembered your password?",
+      "signIn": "Sign in",
+      "or": "or",
+      "createAccount": "Create account",
+      "emailPlaceholder": "Enter your email",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "New password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Repeat password",
+      "changePassword": "Change Password",
+      "sendLink": "Send Reset Link"
+    },
+    "createAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "iAgreeTo": "I agree to the",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "creatingAccount": "Creating Account...",
+    "orContinueWith": "Or continue with",
+    "login": {
+      "title": "Login",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "orContinueWith": "Or continue with",
+      "errors": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidCredentials": "Invalid email or password"
+      },
+      "validation": {
+        "required": "This field is required",
+        "email": "Must be a valid email",
+        "min": "Must be at least {count} characters",
+        "max": "Must be at most {count} characters",
+        "sameAsPassword": "Passwords must match"
+      }
+    },
+    "register": {
+      "title": "Create an Account",
+      "subtitle": "Start your 14-day free trial",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "passwordRequirements": "Password must be at least 8 characters long, including 1 uppercase letter and 1 number",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "iAgreeTo": "I agree to the",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "and": "and",
+      "submit": "Create Account",
+      "submitting": "Creating Account...",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "orContinueWith": "Or continue with",
+      "successTitle": "Registration Successful!",
+      "successMessage": "Please check your email to verify your email address.",
+      "verificationSent": "Verification email sent to {email}",
+      "resendVerification": "Resend verification email",
+      "verificationResent": "Verification email resent",
+      "errors": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidName": "Name should only contain letters and spaces",
+        "nameTooShort": "Name must be at least 2 characters",
+        "nameTooLong": "Name must not exceed 100 characters",
+        "passwordMismatch": "Passwords don't match",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordTooLong": "Password must not exceed 50 characters",
+        "passwordTooWeak": "Password is too weak. Use uppercase and lowercase letters, numbers, and special characters",
+        "emailInUse": "This email is already registered",
+        "invalidCredentials": "Invalid email or password",
+        "verificationRequired": "Email verification required",
+        "verificationExpired": "Verification link has expired. Please request a new one",
+        "verificationFailed": "Failed to verify email. Please try again",
+        "networkError": "Network error. Please check your connection and try again",
+        "unknownError": "An unknown error occurred. Please try again later"
+      },
+      "validation": {
+        "emailFormat": "Please enter a valid email address",
+        "passwordLength": "Password must be between 8 and 50 characters",
+        "passwordUppercase": "Password must contain at least one uppercase letter",
+        "passwordNumber": "Password must contain at least one number",
+        "passwordSpecialChar": "Password must contain at least one special character",
+        "passwordsMatch": "Passwords must match"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The requested page does not exist or has been moved.",
+    "subtitle": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "cta": "Go to homepage",
+    "goBackHome": "Go back home",
+    "contactSupport": "Contact Support",
+    "status": "Status",
+    "twitter": "Twitter"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "serverError": "Server error. Please try again later.",
+    "pdfGenerationFailed": "Failed to generate PDF. Please try again.",
+    "docxGenerationFailed": "Failed to generate DOCX. Please try again.",
+    "pdfDownloadFailed": "Failed to download PDF. Please try again.",
+    "docxDownloadFailed": "Failed to download DOCX. Please try again."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "ru": "Russian",
+    "pl": "Polish"
+  },
+  "pricing": {
+    "title": "Transparent pricing for everyone",
+    "subtitle": "Choose a plan that suits you. Cancel anytime.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save20": "Save 20%",
+    "perMonth": "/month",
+    "whatsIncluded": "What's included",
+    "getStarted": "Get started for free",
+    "tiers": {
+      "free": {
+        "name": "Free",
+        "description": "All you need to get started with resume building",
+        "price": "0$",
+        "features": [
+          "Up to 1 resume",
+          "Basic templates",
+          "PDF export",
+          "Email support",
+          "Up to 3 resumes per month"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "For job seekers who want more features",
+        "monthlyPrice": "9.99$",
+        "yearlyPrice": "7.99$",
+        "features": [
+          "Unlimited resumes",
+          "All premium templates",
+          "PDF and Word export",
+          "Priority support",
+          "Resume analysis",
+          "Tips for optimization"
+        ]
+      },
+      "enterprise": {
+        "name": "For business",
+        "description": "For career centers and recruiters",
+        "price": "Custom",
+        "features": [
+          "All Pro features",
+          "Team management",
+          "Branded templates",
+          "API access",
+          "Personal manager",
+          "Team training"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Can I change my plan later?",
+          "answer": "Yes, you can switch to a different plan at any time in your account settings."
+        },
+        {
+          "question": "How does the free trial work?",
+          "answer": "The free trial is available for 14 days. After that, you will be charged the monthly price."
+        },
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards, including Visa, Mastercard, and American Express, as well as PayPal."
+        },
+        {
+          "question": "How do I cancel my subscription?",
+          "answer": "You can cancel your subscription at any time in your account settings. Your subscription will remain active until the end of the paid period."
+        }
+      ]
+    }
+  },
+  "static": {
+    "lastUpdated": "Last updated",
+    "backToTop": "Back to top",
+    "onThisPage": "On this page",
+    "termsOfService": {
+      "title": "Terms of Service",
+      "subtitle": "Last updated: {date}",
+      "lastUpdated": "June 15, 2023",
+      "sections": {
+        "introduction": {
+          "title": "Introduction",
+          "content": "Welcome to ResumeRise. These Terms of Service (\"Terms\") govern your access to and use of our website, products, and services (\"Services\")."
+        },
+        "accounts": {
+          "title": "Accounts",
+          "content": "To access certain features of our Services, you may need to create an account.",
+          "accountCreation": {
+            "title": "Account Creation",
+            "content": "When you create an account, you must provide accurate and complete information. You are responsible for maintaining the confidentiality of your account credentials."
+          },
+          "accountResponsibilities": {
+            "title": "Account Responsibilities",
+            "content": "You are responsible for all activities that occur under your account. Notify us immediately of any unauthorized use of your account."
+          }
+        },
+        "content": {
+          "title": "Content",
+          "intro": "Our Services allow you to create, upload, and share content.",
+          "userContent": {
+            "title": "User Content",
+            "content": "You retain ownership of any intellectual property rights that you hold in your content."
+          },
+          "prohibitedContent": {
+            "title": "Prohibited Content",
+            "items": [
+              "Illegal or unlawful material",
+              "Copyrighted content without permission",
+              "Malicious software or code",
+              "Spam or deceptive practices"
+            ]
+          }
+        },
+        "termination": {
+          "title": "Termination",
+          "content": "We may terminate or suspend your account immediately, without prior notice, for conduct that we believe violates these Terms."
+        },
+        "changes": {
+          "title": "Changes to Terms",
+          "content": "We reserve the right to modify these Terms at any time. We will provide notice of material changes."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "If you have any questions about these Terms, please contact us at legal@resumerise.com."
+        }
+      }
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "subtitle": "Last updated: {date}",
+      "lastUpdated": "June 15, 2023"
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy",
+      "subtitle": "Last updated: {date}",
+      "lastUpdated": "June 15, 2023"
+    },
+    "documentation": {
+      "title": "Documentation",
+      "subtitle": "Learn how to use ResumeRise effectively"
+    },
+    "guides": {
+      "title": "Guides",
+      "subtitle": "Step-by-step tutorials and guides"
+    },
+    "apiStatus": {
+      "title": "API Status",
+      "subtitle": "Current status of our API services"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "blog": "Blog",
+    "documentation": "Documentation",
+    "guides": "Guides",
+    "apiStatus": "API Status",
+    "contact": "Contact Us",
+    "language": "Language",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "copyright": " 2023 ResumeRise. All rights reserved.",
+    "rights": "All rights reserved"
+  },
+  "user": {
+    "resumes": {
+      "create_new": "Create New Resume",
+      "last_updated": "Last updated",
+      "views": "views",
+      "no_resumes": "No resumes yet",
+      "get_started": "Get started by creating a new resume.",
+      "create_resume": "Create Resume",
+      "delete_confirm": {
+        "title": "Delete Resume",
+        "message": "Are you sure you want to delete this resume? This action cannot be undone."
+      }
+    },
+    "applications": {
+      "applications": "Applications",
+      "interviews": "Interviews",
+      "upcoming_interviews": "Upcoming Interviews",
+      "upcoming_interviews_description": "Your scheduled interviews and their details",
+      "no_upcoming_interviews": "No upcoming interviews scheduled",
+      "interview_calendar": "Interview Calendar",
+      "status": {
+        "scheduled": "Scheduled",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "rescheduled": "Rescheduled"
+      },
+      "interview_details": "Interview Details",
+      "position": "Position",
+      "company": "Company",
+      "date_time": "Date & Time",
+      "applied_date": "Application Date",
+      "applied_on": "Applied on",
+      "interview_date": "Interview Date & Time",
+      "location": "Location",
+      "open_in_maps": "Open in Maps",
+      "loading_map": "Loading map...",
+      "interview_type": "Interview Type",
+      "interviewer": "Interviewer",
+      "meeting_link": "Meeting Link",
+      "notes": "Notes",
+      "contacts": "Contacts",
+      "view_job_posting": "View job posting",
+      "add_to_calendar": "Add to Calendar",
+      "join_meeting": "Join Meeting",
+      "no_interviews_scheduled": "No interviews scheduled yet"
+    },
+    "profile": {
+      "my_profile": "My Profile",
+      "cv_info": "CV Information",
+      "my_resumes": "My Resumes",
+      "my_templates": "My Templates",
+      "subscriptions": "Subscriptions",
+      "job_applications": "Job Applications",
+      "title": "My Profile",
+      "subtitle": "Manage your personal information, security settings, and more.",
+      "active_account": "Active Account",
+      "guest": "Guest",
+      "personal_info": "Personal Information",
+      "personal_info_description": "Update your personal information and contact details.",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "change_password": "Change Password",
+      "change_password_description": "Update your password to secure your account.",
+      "current_password": "Current password",
+      "new_password": "New password",
+      "confirm_password": "Confirm new password",
+      "password_updated": "Password updated successfully!",
+      "profile_updated": "Profile updated successfully!"
+    },
+    "navigation": {
+      "overview": "Overview",
+      "resumes": "My Resumes",
+      "templates": "Templates",
+      "applications": "Job Applications",
+      "subscriptions": "Subscriptions",
+      "settings": "Settings"
+    },
+    "resumes": {
+      "title": "My Resumes",
+      "subtitle": "Manage your resumes and create new ones.",
+      "no_resumes": "You don't have any resumes yet.",
+      "create_resume": "Create New Resume",
+      "last_modified": "Last modified",
+      "actions": "Actions",
+      "edit": "Edit",
+      "preview": "Preview",
+      "download": "Download",
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "confirm_delete": "Are you sure you want to delete this resume?",
+      "deleted": "Resume deleted successfully!"
+    },
+    "applications": {
+      "title": "Job Applications",
+      "subtitle": "Track your job applications and their status.",
+      "no_applications": "You haven't applied to any jobs yet.",
+      "position": "Position",
+      "company": "Company",
+      "status": "Status",
+      "applied_date": "Applied Date",
+      "last_updated": "Last Updated",
+      "view_details": "View Details",
+      "applied": "Applied",
+      "interview": "Interview",
+      "offer": "Offer",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn"
+    },
+    "subscriptions": {
+      "title": "My Subscriptions",
+      "subtitle": "Manage your subscription and billing information.",
+      "current_plan": "Current Plan",
+      "status": "Status",
+      "next_billing": "Next Billing Date",
+      "change_plan": "Change Plan",
+      "billing_history": "Billing History",
+      "date": "Date",
+      "description": "Description",
+      "amount": "Amount",
+      "receipt": "Receipt",
+      "no_history": "No billing history available.",
+      "active": "Active",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    }
+  },
+  "admin": {
+    "profile": {
+      "title": "Admin Profile",
+      "tabs": {
+        "main": "Main",
+        "security": "Security",
+        "export": "Export"
+      },
+      "main": {
+        "title": "Profile Information",
+        "subtitle": "Manage your personal information and preferences",
+        "edit": "Edit Profile",
+        "name": "Full Name",
+        "email": "Email Address",
+        "verified": "Verified",
+        "notVerified": "Not Verified",
+        "resend": "Resend Verification",
+        "phone": "Phone Number",
+        "country": "Country",
+        "city": "City",
+        "publicProfile": "Make Profile Public",
+        "role": "Role",
+        "registered": "Registered",
+        "lastLogin": "Last Login"
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "passwordAdvice": "Use a strong password to protect your account",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "passwordStrength": {
+          "weak": "Weak",
+          "medium": "Medium",
+          "strong": "Strong",
+          "veryStrong": "Very Strong"
+        },
+        "passwordRequirements": {
+          "length": "Minimum 8 characters",
+          "uppercase": "At least one uppercase letter",
+          "lowercase": "At least one lowercase letter",
+          "number": "At least one number",
+          "special": "At least one special character",
+          "noSpaces": "No spaces allowed"
+        }
+      },
+      "export": {
+        "title": "Data Export",
+        "subtitle": "Export your personal data",
+        "button": "Export Data",
+        "success": "Data export initiated. You will receive a download link via email."
+      }
+    },
+    "profile": {
+      "notifications": "Notifications",
+      "billing": "Billing"
+    },
+    "account": {
+      "title": "Account Settings",
+      "email": "Email address",
+      "email_placeholder": "your@email.com",
+      "language": "Language",
+      "marketing_emails": "Receive marketing emails",
+      "danger_zone": "Danger Zone",
+      "delete_account": "Delete Account",
+      "delete_account_title": "Delete your account",
+      "delete_account_message": "Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently removed.",
+      "export_data": "Export My Data",
+      "export_success": "Your data has been exported successfully!"
+    },
+    "notifications": {
+      "title": "Notification Preferences",
+      "email_notifications": "Email Notifications",
+      "new_features": "New features & updates",
+      "new_features_desc": "Be the first to know about new features and improvements.",
+      "newsletter": "Newsletter",
+      "newsletter_desc": "Get the latest tips and industry insights.",
+      "product_updates": "Product updates",
+      "product_updates_desc": "Important updates about our services.",
+      "push_notifications": "Push Notifications",
+      "push_enabled": "Enable push notifications",
+      "push_enabled_desc": "Get real-time updates in your browser."
+    },
+    "billing": {
+      "title": "Billing & Subscription",
+      "current_plan": "Your current plan: {plan}",
+      "next_billing": "Next billing date: {date}",
+      "payment_methods": "Payment Methods",
+      "add_payment_method": "Add Payment Method",
+      "billing_history": "Billing History",
+      "date": "Date",
+      "description": "Description",
+      "amount": "Amount",
+      "status": "Status",
+      "confirm_remove_payment": "Are you sure you want to remove this payment method?",
+      "view": "View",
+      "paid": "Paid",
+      "pending": "Pending",
+      "failed": "Failed"
+    }
+  },
+  "common": {
+    "save_changes": "Save Changes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "settings": "Settings",
+    "edit_profile": "Edit Profile",
+    "preview": "Preview",
+    "duplicate": "Duplicate",
+    "published": "Published",
+    "draft": "Draft",
+    "public": "Public",
+    "private": "Private",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "errors": {
+      "something_went_wrong": "Something went wrong. Please try again later.",
+      "delete_failed": "Failed to delete. Please try again.",
+      "save_failed": "Failed to save changes. Please try again."
+    }
+  },
+  "helpCenter": {
+    "title": "Help Center",
+    "subtitle": "Find answers to common questions or get help from our team",
+    "searchPlaceholder": "Enter your question or keywords...",
+    "search": "Find Answers",
+    "searchResults": "{count} results found for \"{query}\"",
+    "noResults": "We couldn't find any results for your search. Try different keywords.",
+    "suggestedSearches": "You might be looking for:",
+    "popularCategories": "Popular Categories",
+    "needMoreHelp": "Need more help?",
+    "contactUs": "Contact Us",
+    "contactDescription": "Couldn't find what you were looking for? Our support team is available 24/7 to assist you.",
+    "contactButton": "Contact Support",
+    "popularArticles": "Popular Articles",
+    "allArticles": "All Articles",
+    "viewAll": "View All",
+    "lastUpdated": "Last updated",
+    "readTime": "Read time",
+    "minutes": "min",
+    "wasHelpful": "Was this article helpful?",
+    "yesButton": "Yes",
+    "noButton": "No",
+    "thankYouFeedback": "Thank you for your feedback!",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "categories": {
+      "gettingStarted": {
+        "name": "Getting Started",
+        "count": 5
+      },
+      "templates": {
+        "name": "Templates",
+        "count": 8
+      },
+      "account": {
+        "name": "Account",
+        "count": 4
+      },
+      "billing": {
+        "name": "Billing",
+        "count": 3
+      },
+      "troubleshooting": {
+        "name": "Troubleshooting",
+        "count": 6
+      }
+    },
+    "articles": {
+      "gettingStarted": [
+        {
+          "title": "How to create your first resume",
+          "excerpt": "Step-by-step guide to creating your first resume",
+          "difficulty": "beginner",
+          "updatedAt": "2 days ago"
+        },
+        {
+          "title": "How to import an existing resume",
+          "excerpt": "Guide to uploading and converting your current resume",
+          "difficulty": "intermediate",
+          "updatedAt": "1 week ago"
+        }
+      ]
+    },
+    "feedback": {
+      "title": "Feedback",
+      "subtitle": "Couldn't find an answer to your question? Write to us and we'll try to help.",
+      "name": "Your name",
+      "email": "Email for feedback",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message",
+      "success": "Your message has been sent! We'll get back to you soon.",
+      "error": "An error occurred while sending the message. Please try again later."
+    }
+  },
+  "profile": {
+    "tabs": {
+      "main": "Main",
+      "security": "Security",
+      "export": "Export"
+    },
+    "main": {
+      "title": "Profile Information",
+      "subtitle": "Manage your personal information and preferences",
+      "edit": "Edit Profile",
+      "name": "Full Name",
+      "email": "Email Address",
+      "verified": "Verified",
+      "notVerified": "Not Verified",
+      "resend": "Resend Verification",
+      "phone": "Phone Number",
+      "country": "Country",
+      "city": "City",
+      "publicProfile": "Make Profile Public",
+      "role": "Role",
+      "registered": "Registered",
+      "lastLogin": "Last Login"
+    },
+    "security": {
+      "changePassword": "Change Password",
+      "passwordAdvice": "Use a strong password to protect your account",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "passwordStrength": {
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "veryStrong": "Very Strong"
+      }
+    },
+    "export": {
+      "title": "Data Export",
+      "subtitle": "Export your personal data",
+      "button": "Export Data",
+      "success": "Data export initiated. You will receive a download link via email."
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "description": "Manage your navigation menu items",
+    "editMenuItem": "Edit Menu Item",
+    "addMenuItem": "Add Menu Item"
+  },
+  "companies": {
+    "title": "Companies",
+    "create_company": "Create Company",
+    "edit_company": "Edit Company",
+    "no_companies_found": "No companies found",
+    "no_companies_found_description": "Get started by creating a new company",
+    "active_description": "This company is active and visible to users",
+    "inactive_description": "This company is hidden from users",
+    "company_created": "Company created successfully",
+    "company_updated": "Company updated successfully",
+    "company_deleted": "Company deleted successfully"
+  },
+  "vacancies": {
+    "title": "Vacancies",
+    "vacancy": "vacancy | vacancies",
+    "createVacancy": "Create Vacancy",
+    "editVacancy": "Edit Vacancy",
+    "description": "Job Description",
+    "requirements": "Requirements",
+    "responsibilities": "Responsibilities",
+    "benefits": "Benefits",
+    "job_details": "Job Details",
+    "employment_type": "Employment Type",
+    "experience": "Experience Level",
+    "skills": "Required Skills",
+    "published_at": "Published on",
+    "expires_at": "Expires on",
+    "remote": "Remote",
+    "salary_negotiable": "Salary negotiable",
+    "from": "From",
+    "up_to": "Up to",
+    "view_company": "View Company Profile",
+    "back_to_vacancies": "Back to Vacancies",
+    "employment_types": {
+      "full_time": "Full-time",
+      "part_time": "Part-time",
+      "contract": "Contract",
+      "temporary": "Temporary",
+      "internship": "Internship",
+      "freelance": "Freelance"
+    },
+    "experience_levels": {
+      "intern": "Internship",
+      "entry": "Entry Level",
+      "junior": "Junior (1-3 years)",
+      "mid": "Mid-Level (3-5 years)",
+      "senior": "Senior (5+ years)",
+      "lead": "Lead/Manager"
+    },
+    "status": {
+      "draft": "Draft",
+      "active": "Active",
+      "closed": "Closed",
+      "archived": "Archived"
+    },
+    "salary": "Salary",
+    "type": "Type",
+    "location": "Location",
+    "experience": "Experience",
+    "experience_not_specified": "Not specified",
+    "type_not_specified": "Not specified",
+    "views": "{count} view | {count} views",
+    "posted": "Posted",
+    "remote": "Remote work available",
+    "publishSettings": "Publish Settings",
+    "metadata": "Metadata",
+    "fields": {
+      "title": "Job Title",
+      "company": "Company",
+      "description": "Job Description",
+      "employment_type": "Employment Type",
+      "experience_level": "Experience Level",
+      "salary_min": "Minimum Salary",
+      "salary_max": "Maximum Salary",
+      "salary_currency": "Currency",
+      "location": "Location",
+      "is_remote": "Remote Work Available",
+      "is_active": "Active",
+      "is_published": "Published",
+      "published_at": "Publish Date",
+      "expires_at": "Expiry Date",
+      "slug": "URL Slug",
+      "views": "Views",
+      "applications_count": "Applications",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    },
+    "employmentTypes": {
+      "full_time": "Full-time",
+      "part_time": "Part-time",
+      "contract": "Contract",
+      "temporary": "Temporary",
+      "internship": "Internship",
+      "freelance": "Freelance"
+    },
+    "experienceLevels": {
+      "intern": "Intern",
+      "entry": "Entry Level",
+      "mid": "Mid Level",
+      "senior": "Senior",
+      "lead": "Lead",
+      "executive": "Executive"
+    },
+    "actions": {
+      "save": "Save",
+      "saveDraft": "Save as Draft",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "messages": {
+      "saved": "Vacancy saved successfully",
+      "published": "Vacancy published successfully",
+      "unpublished": "Vacancy unpublished successfully",
+      "deleted": "Vacancy deleted successfully",
+      "confirmDelete": "Are you sure you want to delete this vacancy?",
+      "noCompanies": "No companies found. Please create a company first."
+    }
+  },
+
+  "vacancies": {
+    "createVacancy": "Create Vacancy",
+    "editVacancy": "Edit Vacancy",
+    "publishSettings": "Publish Settings",
+    "metadata": "Metadata",
+    "fields": {
+      "title": "Job Title",
+      "company": "Company",
+      "description": "Job Description",
+      "employment_type": "Employment Type",
+      "experience_level": "Experience Level",
+      "salary_min": "Minimum Salary",
+      "salary_max": "Maximum Salary",
+      "salary_currency": "Currency",
+      "location": "Location",
+      "is_remote": "Remote Work Available",
+      "is_active": "Active",
+      "is_published": "Published",
+      "published_at": "Publish Date",
+      "expires_at": "Expiry Date",
+      "slug": "URL Slug",
+      "views": "Views",
+      "applications_count": "Applications",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    },
+    "employmentTypes": {
+      "full_time": "Full-time",
+      "part_time": "Part-time",
+      "contract": "Contract",
+      "temporary": "Temporary",
+      "internship": "Internship",
+      "freelance": "Freelance"
+    },
+    "experienceLevels": {
+      "intern": "Intern",
+      "entry": "Entry Level",
+      "mid": "Mid Level",
+      "senior": "Senior",
+      "lead": "Lead",
+      "executive": "Executive"
+    },
+    "actions": {
+      "save": "Save",
+      "saveDraft": "Save as Draft",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "messages": {
+      "saved": "Vacancy saved successfully",
+      "published": "Vacancy published successfully",
+      "unpublished": "Vacancy unpublished successfully",
+      "deleted": "Vacancy deleted successfully",
+      "confirmDelete": "Are you sure you want to delete this vacancy?",
+      "noCompanies": "No companies found. Please create a company first."
+    }
+  },
+
+  "media": {
+    "media_library": "Media Library",
+    "upload_files": "Upload Files",
+    "drag_drop": "Drag & drop files here or click to browse",
+    "browse_files": "Browse Files",
+    "selected_items": "{count} selected | {count} selected",
+    "delete_selected": "Delete Selected",
+    "confirm_delete_multiple": "Are you sure you want to delete {count} items? This action cannot be undone.",
+    "delete_multiple_success": "Successfully deleted {count} items",
+    "copy_selected": "Copying {count} items",
+    "rename_selected": "Renaming {count} items",
+    "move_selected": "Moving {count} items",
+    "no_files_selected": "No files selected",
+    "file_selected": "{count} file selected | {count} files selected",
+    "uploading": "Uploading...",
+    "upload_success": "Files uploaded successfully",
+    "upload_error": "Error uploading files",
+    "delete_confirm": "Are you sure you want to delete this file?",
+    "delete_success": "File deleted successfully",
+    "delete_error": "Error deleting file",
+    "preview": "Preview",
+    "download": "Download",
+    "delete": "Delete",
+    "filter": {
+      "all": "All Files",
+      "images": "Images",
+      "documents": "Documents",
+      "videos": "Videos",
+      "audio": "Audio"
+    },
+    "no_files": "No files found",
+    "no_files_description": "Upload your first file by dragging and dropping or clicking the upload button above.",
+    "file_info": {
+      "name": "Name",
+      "size": "Size",
+      "type": "Type",
+      "uploaded": "Uploaded",
+      "dimensions": "Dimensions"
+    }
+  },
+  "form": {
+    "title": "Title",
+    "enterTitle": "Enter title",
+    "path": "Path",
+    "enterPath": "Enter path",
+    "pathHelp": "The URL path for this menu item (e.g., /about)",
+    "icon": "Icon",
+    "enterIconClass": "Enter icon class (e.g., fas fa-home)",
+    "layout": "Layout",
+    "selectIcon": "Select an icon",
+    "chooseIcon": "Choose icon",
+    "clear": "Clear",
+    "accessControl": "Access Control",
+    "visibility": "Visibility",
+    "visibleInMenu": "Visible in menu",
+    "visibleInMenuHelp": "Show this item in the navigation menu",
+    "visibleToGuestsOnly": "Visible to guests only",
+    "visibleToGuestsOnlyHelp": "Only show this item to non-logged in users",
+    "visibleToLoggedInOnly": "Visible to logged-in users only",
+    "visibleToLoggedInOnlyHelp": "Only show this item to authenticated users",
+    "permissions": "Permissions",
+    "noPermissionsAvailable": "No permissions available"
+  },
+  "permissions": {
+    "view_companies": "View companies",
+    "create_companies": "Create companies",
+    "edit_companies": "Edit companies",
+    "delete_companies": "Delete companies",
+    "view_vacancies": "View vacancies",
+    "create_vacancy": "Create vacancies",
+    "edit_vacancy": "Edit vacancies",
+    "delete_vacancy": "Delete vacancies",
+    "view_dashboard": "View dashboard and overview",
+    "manage_users": "Manage user accounts and permissions",
+    "manage_roles": "Create, edit and delete user roles",
+    "manage_permissions": "Manage system permissions",
+    "manage_menu": "Manage navigation menu items",
+    "view_reports": "View system reports and analytics",
+    "noDescription": "No description available"
+  }
+}

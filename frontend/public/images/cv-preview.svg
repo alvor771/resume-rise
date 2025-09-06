@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1132" viewBox="0 0 800 1132" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Page background -->
+  <rect width="800" height="1132" fill="white"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="720" height="120" rx="4" fill="#2563EB" fill-opacity="0.9"/>
+  <rect x="60" y="65" width="100" height="70" rx="35" fill="white" fill-opacity="0.2"/>
+  <text x="110" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">JD</text>
+  <text x="180" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">John Doe</text>
+  <text x="180" y="120" font-family="Arial, sans-serif" font-size="16" fill="#E5E7EB">Senior Software Engineer</text>
+  
+  <!-- Left sidebar -->
+  <rect x="40" y="190" width="240" height="860" rx="4" fill="#F3F4F6"/>
+  
+  <!-- Contact Info Section -->
+  <rect x="60" y="220" width="200" height="24" rx="2" fill="#9CA3AF" fill-opacity="0.5"/>
+  <rect x="60" y="260" width="200" height="16" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  <rect x="60" y="285" width="180" height="16" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  <rect x="60" y="310" width="160" height="16" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  
+  <!-- Skills Section -->
+  <rect x="60" y="360" width="160" height="24" rx="2" fill="#9CA3AF" fill-opacity="0.5"/>
+  <rect x="60" y="400" width="80" height="12" rx="2" fill="#2563EB" fill-opacity="0.8"/>
+  <rect x="60" y="420" width="120" height="12" rx="2" fill="#2563EB" fill-opacity="0.8"/>
+  <rect x="60" y="440" width="100" height="12" rx="2" fill="#2563EB" fill-opacity="0.8"/>
+  <rect x="60" y="460" width="90" height="12" rx="2" fill="#2563EB" fill-opacity="0.8"/>
+  
+  <!-- Main Content -->
+  <rect x="310" y="190" width="450" height="24" rx="2" fill="#1F2937" fill-opacity="0.8"/>
+  
+  <!-- Experience Item 1 -->
+  <rect x="310" y="240" width="300" height="20" rx="2" fill="#1F2937" fill-opacity="0.8"/>
+  <rect x="310" y="270" width="200" height="16" rx="2" fill="#6B7280" fill-opacity="0.5"/>
+  <rect x="310" y="295" width="400" height="12" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  <rect x="310" y="315" width="380" height="12" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  <rect x="310" y="335" width="350" height="12" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  
+  <!-- Experience Item 2 -->
+  <rect x="310" y="390" width="280" height="20" rx="2" fill="#1F2937" fill-opacity="0.8"/>
+  <rect x="310" y="420" width="180" height="16" rx="2" fill="#6B7280" fill-opacity="0.5"/>
+  <rect x="310" y="445" width="400" height="12" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  <rect x="310" y="465" width="380" height="12" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  
+  <!-- Education -->
+  <rect x="310" y="520" width="200" height="24" rx="2" fill="#1F2937" fill-opacity="0.8"/>
+  <rect x="310" y="560" width="250" height="18" rx="2" fill="#1F2937" fill-opacity="0.7"/>
+  <rect x="310" y="590" width="180" height="16" rx="2" fill="#6B7280" fill-opacity="0.5"/>
+  
+  <!-- Projects -->
+  <rect x="310" y="640" width="150" height="24" rx="2" fill="#1F2937" fill-opacity="0.8"/>
+  <rect x="310" y="680" width="220" height="18" rx="2" fill="#1F2937" fill-opacity="0.7"/>
+  <rect x="310" y="710" width="350" height="12" rx="2" fill="#9CA3AF" fill-opacity="0.3"/>
+  
+  <!-- Decorative elements -->
+  <rect x="40" y="180" width="720" height="2" fill="#E5E7EB"/>
+  <rect x="300" y="190" width="2" height="860" fill="#E5E7EB"/>
+  
+  <!-- Page shadow -->
+  <rect x="50" y="50" width="700" height="1032" rx="4" fill="none" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Decorative corner elements -->
+  <rect x="40" y="40" width="20" height="20" fill="#2563EB" fill-opacity="0.8"/>
+  <rect x="40" y="1150" width="20" height="20" transform="rotate(-90 40 1150)" fill="#2563EB" fill-opacity="0.8"/>
+  <rect x="760" y="40" width="20" height="20" transform="rotate(90 760 40)" fill="#2563EB" fill-opacity="0.8"/>
+  <rect x="780" y="1160" width="20" height="20" transform="rotate(180 780 1160)" fill="#2563EB" fill-opacity="0.8"/>
+</svg>

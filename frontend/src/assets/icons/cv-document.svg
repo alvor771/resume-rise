@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Фон удален, теперь прозрачный -->
+  
+  <!-- Анимация сборки документа -->
+  <g class="document-assembly">
+    <!-- Часть 1: Верхний левый угол -->
+    <g class="part part-1">
+      <path d="M12 8H24V20H12V8Z" fill="#E0E7FF" stroke="#4F46E5" stroke-width="1.5"/>
+      <!-- Горизонтальные полосы -->
+      <line x1="14" y1="12" x2="22" y2="12" stroke="#4F46E5" stroke-width="1" stroke-dasharray="2 1">
+        <animate attributeName="x2" from="14" to="22" dur="0.5s" fill="freeze" begin="0.2s"/>
+      </line>
+      <line x1="14" y1="15" x2="22" y2="15" stroke="#4F46E5" stroke-width="1" stroke-dasharray="2 1">
+        <animate attributeName="x2" from="14" to="22" dur="0.5s" fill="freeze" begin="0.4s"/>
+      </line>
+      <!-- Анимация появления -->
+      <animateTransform attributeName="transform" type="translate" from="-10 -10" to="0 0" dur="0.5s" fill="freeze"/>
+    </g>
+    
+    <!-- Часть 2: Верхний правый угол -->
+    <g class="part part-2">
+      <path d="M24 8H36V20H24V8Z" fill="#C7D2FE" stroke="#4F46E5" stroke-width="1.5">
+        <animate attributeName="fill" values="#C7D2FE;#E0E7FF;#C7D2FE" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <!-- Квадраты -->
+      <rect x="26" y="10" width="4" height="4" fill="#4F46E5" fill-opacity="0.2">
+        <animate attributeName="width" from="0" to="4" dur="0.3s" begin="0.5s" fill="freeze"/>
+        <animate attributeName="height" from="0" to="4" dur="0.3s" begin="0.5s" fill="freeze"/>
+      </rect>
+      <rect x="32" y="10" width="4" height="4" fill="#4F46E5" fill-opacity="0.2">
+        <animate attributeName="width" from="0" to="4" dur="0.3s" begin="0.7s" fill="freeze"/>
+        <animate attributeName="height" from="0" to="4" dur="0.3s" begin="0.7s" fill="freeze"/>
+      </rect>
+      <!-- Анимация появления -->
+      <animateTransform attributeName="transform" type="translate" from="10 -10" to="0 0" dur="0.5s" fill="freeze" begin="0.2s"/>
+    </g>
+    
+    <!-- Часть 3: Нижний левый угол -->
+    <g class="part part-3">
+      <path d="M12 20H24V32H12V20Z" fill="#A5B4FC" stroke="#4F46E5" stroke-width="1.5">
+        <animate attributeName="fill" values="#A5B4FC;#C7D2FE;#A5B4FC" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <!-- Круги -->
+      <circle cx="16" cy="24" r="1.5" fill="#4F46E5">
+        <animate attributeName="r" from="0" to="1.5" dur="0.3s" begin="0.8s" fill="freeze"/>
+      </circle>
+      <circle cx="20" cy="24" r="1.5" fill="#4F46E5">
+        <animate attributeName="r" from="0" to="1.5" dur="0.3s" begin="1s" fill="freeze"/>
+      </circle>
+      <!-- Анимация появления -->
+      <animateTransform attributeName="transform" type="translate" from="-10 10" to="0 0" dur="0.5s" fill="freeze" begin="0.4s"/>
+    </g>
+    
+    <!-- Часть 4: Нижний правый угол -->
+    <g class="part part-4">
+      <path d="M24 20H36V32H24V20Z" fill="#818CF8" stroke="#4F46E5" stroke-width="1.5">
+        <animate attributeName="fill" values="#818CF8;#A5B4FC;#818CF8" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <!-- Крестик -->
+      <g class="cross">
+        <line x1="28" y1="24" x2="32" y2="28" stroke="#4F46E5" stroke-width="1.5" stroke-linecap="round">
+          <animate attributeName="x2" from="28" to="32" dur="0.3s" begin="1.2s" fill="freeze"/>
+          <animate attributeName="y2" from="24" to="28" dur="0.3s" begin="1.2s" fill="freeze"/>
+        </line>
+        <line x1="32" y1="24" x2="28" y2="28" stroke="#4F46E5" stroke-width="1.5" stroke-linecap="round">
+          <animate attributeName="x2" from="32" to="28" dur="0.3s" begin="1.2s" fill="freeze"/>
+          <animate attributeName="y2" from="24" to="28" dur="0.3s" begin="1.2s" fill="freeze"/>
+        </line>
+      </g>
+      <!-- Анимация появления -->
+      <animateTransform attributeName="transform" type="translate" from="10 10" to="0 0" dur="0.5s" fill="freeze" begin="0.6s"/>
+    </g>
+    
+    <!-- Обводка документа (появляется последней) -->
+    <rect x="12" y="8" width="24" height="24" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.5" stroke-dasharray="0 200" stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" values="0,200;63,137;126,74;189,11;200,0" dur="1.5s" begin="1.5s" fill="freeze" calcMode="spline" keyTimes="0;0.3;0.6;0.9;1" keySplines="0.4,0,0.2,1;0.4,0,0.2,1;0.4,0,0.2,1;0.4,0,0.2,1"/>
+    </rect>
+    
+    <!-- Анимация пульсации после сборки -->
+    <circle cx="24" cy="20" r="0" fill="#4F46E5" fill-opacity="0.2">
+      <animate attributeName="r" values="0;15;0" dur="2s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0;0" dur="2s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Стили анимации -->
+  <style type="text/css">
+    .document-assembly {
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    
+    .part {
+      transform-origin: center;
+    }
+    
+    /* Анимация появления частей */
+    @keyframes part-appear {
+      0% { opacity: 0; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    
+    .part-1 { animation: part-appear 0.5s ease-out forwards; }
+    .part-2 { animation: part-appear 0.5s ease-out 0.2s forwards; opacity: 0; }
+    .part-3 { animation: part-appear 0.5s ease-out 0.4s forwards; opacity: 0; }
+    .part-4 { animation: part-appear 0.5s ease-out 0.6s forwards; opacity: 0; }
+    
+    /* Анимация пульсации после сборки */
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+      100% { transform: scale(1); }
+    }
+    
+    .document-assembly:hover {
+      animation: pulse 2s ease-in-out infinite;
+    }
+  </style>
+</svg>

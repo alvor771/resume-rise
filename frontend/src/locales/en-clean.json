@@ -1,0 +1,118 @@
+{
+  "app": {
+    "name": "ResumeRise",
+    "tagline": "Take your career to the next level",
+    "description": "Create professional resumes in minutes"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation completed successfully"
+  },
+  "nav": {
+    "home": "Home",
+    "resumeBuilder": "Resume Builder",
+    "cvBuilder": "CV Builder",
+    "templates": "Templates",
+    "pricing": "Pricing",
+    "helpCenter": "Help Center",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "resumes": "Resumes",
+    "apiEndpoints": "API Endpoints",
+    "activityLog": "Activity Log",
+    "settings": "Settings"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Must be a valid email",
+    "min": "Must be at least {count} characters",
+    "max": "Must be at most {count} characters",
+    "sameAsPassword": "Passwords must match"
+  },
+  "admin": {
+    "vacancies": {
+      "title": "Vacancies",
+      "createVacancy": "Create Vacancy",
+      "editVacancy": "Edit Vacancy",
+      "publishSettings": "Publish Settings",
+      "metadata": "Metadata",
+      "fields": {
+        "title": "Job Title",
+        "company": "Company",
+        "description": "Job Description",
+        "employment_type": "Employment Type",
+        "experience_level": "Experience Level",
+        "salary_min": "Minimum Salary",
+        "salary_max": "Maximum Salary",
+        "salary_currency": "Currency",
+        "location": "Location",
+        "is_remote": "Remote Work Available",
+        "is_active": "Active",
+        "is_published": "Published",
+        "published_at": "Publish Date",
+        "expires_at": "Expiry Date",
+        "slug": "URL Slug",
+        "views": "Views",
+        "applications_count": "Applications"
+      },
+      "employmentTypes": {
+        "full_time": "Full-time",
+        "part_time": "Part-time",
+        "contract": "Contract",
+        "temporary": "Temporary",
+        "internship": "Internship",
+        "freelance": "Freelance"
+      },
+      "experienceLevels": {
+        "intern": "Intern",
+        "entry": "Entry Level",
+        "mid": "Mid Level",
+        "senior": "Senior",
+        "lead": "Lead",
+        "executive": "Executive"
+      },
+      "actions": {
+        "save": "Save",
+        "saveDraft": "Save as Draft",
+        "publish": "Publish",
+        "unpublish": "Unpublish",
+        "cancel": "Cancel",
+        "delete": "Delete"
+      },
+      "messages": {
+        "saved": "Vacancy saved successfully",
+        "created": "Vacancy created successfully",
+        "published": "Vacancy published successfully",
+        "unpublished": "Vacancy unpublished successfully",
+        "deleted": "Vacancy deleted successfully",
+        "confirmDelete": "Are you sure you want to delete this vacancy?",
+        "noCompanies": "No companies found. Please create a company first."
+      }
+    }
+  },
+  "permissions": {
+    "view_dashboard": "View dashboard and overview",
+    "manage_users": "Manage user accounts and permissions",
+    "manage_roles": "Create, edit and delete user roles",
+    "manage_permissions": "Manage system permissions",
+    "manage_menu": "Manage navigation menu items",
+    "view_reports": "View system reports and analytics",
+    "noDescription": "No description available"
+  }
+}

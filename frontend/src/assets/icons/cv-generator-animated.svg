@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Основная группа с анимацией -->
+  <g class="cv-generator">
+    <!-- Фон документа -->
+    <rect x="8" y="6" width="32" height="36" rx="2" fill="#1F2937" stroke="#4F46E5" stroke-width="1.5" stroke-linejoin="round">
+      <animate attributeName="fill" values="#1F2937;#1E1B4B;#1F2937" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Верхняя панель -->
+    <rect x="10" y="10" width="28" height="6" rx="1" fill="#4F46E5" fill-opacity="0.2" stroke="#4F46E5" stroke-width="0.5">
+      <animate attributeName="width" values="28;26;28" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Блок с аватаром -->
+    <g class="avatar-section">
+      <circle cx="16" cy="26" r="4" fill="#4F46E5" fill-opacity="0.8" stroke="#6366F1" stroke-width="1">
+        <animate attributeName="r" values="4;3.8;4" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="12" y="32" width="8" height="1.5" rx="0.75" fill="#E0E7FF" fill-opacity="0.7">
+        <animate attributeName="width" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    
+    <!-- Блок с навыками -->
+    <g class="skills-section">
+      <rect x="24" y="24" width="12" height="2" rx="1" fill="#818CF8" fill-opacity="0.7">
+        <animate attributeName="width" values="12;14;12" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="24" y="28" width="10" height="2" rx="1" fill="#818CF8" fill-opacity="0.5">
+        <animate attributeName="width" values="10;12;10" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+      </rect>
+      <rect x="24" y="32" width="8" height="2" rx="1" fill="#818CF8" fill-opacity="0.3">
+        <animate attributeName="width" values="8;10;8" dur="2.5s" repeatCount="indefinite" begin="0.6s"/>
+      </rect>
+    </g>
+    
+    <!-- Секция с текстом CV -->
+    <g class="cv-text">
+      <rect x="12" y="38" width="24" height="1.5" rx="0.75" fill="#E0E7FF" fill-opacity="0.9">
+        <animate attributeName="width" values="24;20;24" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="12" y="42" width="20" height="1.5" rx="0.75" fill="#E0E7FF" fill-opacity="0.7">
+        <animate attributeName="width" values="20;16;20" dur="4s" repeatCount="indefinite" begin="0.2s"/>
+      </rect>
+    </g>
+    
+    <!-- Анимация курсора -->
+    <rect x="24" y="24" width="2" height="12" fill="#6366F1" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="height" values="12;8;12" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Эффект выделения -->
+    <rect x="12" y="38" width="24" height="6" fill="#4F46E5" fill-opacity="0" rx="1">
+      <animate attributeName="fill-opacity" values="0;0.1;0" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    
+    <!-- Анимация страниц -->
+    <g class="pages">
+      <rect x="10" y="40" width="28" height="1" rx="0.5" fill="#4F46E5" fill-opacity="0.3">
+        <animate attributeName="y" values="40;41;40" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="11" y="42" width="26" height="1" rx="0.5" fill="#4F46E5" fill-opacity="0.2">
+        <animate attributeName="y" values="42;43;42" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  
+  <!-- Стили анимации -->
+  <style type="text/css">
+    .cv-generator {
+      transform-origin: center;
+      animation: float 8s ease-in-out infinite;
+    }
+    
+    .avatar-section {
+      transform-origin: center;
+      animation: float 6s ease-in-out infinite reverse;
+    }
+    
+    .skills-section {
+      transform-origin: center;
+      animation: pulse 5s ease-in-out infinite;
+    }
+    
+    .cv-text {
+      transform-origin: center;
+      animation: float 7s ease-in-out infinite reverse;
+    }
+    
+    .pages {
+      transform-origin: center;
+      animation: float 9s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(-0.3deg); }
+      50% { transform: translateY(-1px) rotate(0.3deg); }
+    }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.01); }
+    }
+  </style>
+</svg>

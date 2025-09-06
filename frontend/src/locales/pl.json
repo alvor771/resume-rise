@@ -1,0 +1,980 @@
+{
+  "app": {
+    "name": "ResumeRise",
+    "tagline": "Podnieś swoją karierę na wyższy poziom",
+    "description": "Twórz profesjonalne CV w kilka minut"
+  },
+  "common": {
+    "learnMore": "Dowiedz się więcej"
+  },
+  "nav": {
+    "home": "Strona Główna",
+    "resumeBuilder": "Kreator CV",
+    "cvGenerator": "Generator CV",
+    "cvBuilder": "Konstruktor CV",
+    "templateBuilder": "Szablony",
+    "pricing": "Cennik",
+    "helpCenter": "Pomoc",
+    "login": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "logout": "Wyloguj się",
+    "profile": "Profil",
+    "admin": {
+      "profile": {
+        "title": "Profil Administratora",
+        "tabs": {
+          "main": "Główne",
+          "security": "Bezpieczeństwo",
+          "export": "Eksport"
+        },
+        "main": {
+          "title": "Informacje o profilu",
+          "subtitle": "Zarządzaj swoją informacjami osobistymi i preferencjami",
+          "edit": "Edytuj profil",
+          "name": "Pełna nazwa",
+          "email": "Adres e-mail",
+          "verified": "Zweryfikowany",
+          "notVerified": "Niezweryfikowany",
+          "resend": "Wyślij ponownie weryfikację",
+          "phone": "Numer telefonu",
+          "country": "Kraj",
+          "city": "Miasto",
+          "publicProfile": "Ustaw profil jako publiczny",
+          "role": "Rola",
+          "registered": "Zarejestrowany",
+          "lastLogin": "Ostatnie logowanie"
+        },
+        "security": {
+          "changePassword": "Zmień hasło",
+          "passwordAdvice": "Użyj silnego hasła do ochrony swojego konta",
+          "currentPassword": "Obecne hasło",
+          "newPassword": "Nowe hasło",
+          "confirmPassword": "Potwierdź hasło",
+          "passwordStrength": {
+            "weak": "Słabe",
+            "medium": "Średnie",
+            "strong": "Silne",
+            "veryStrong": "Bardzo silne"
+          },
+          "passwordRequirements": {
+            "length": "Minimalnie 8 znaków",
+            "uppercase": "Przynajmniej jedna wielka litera",
+            "lowercase": "Przynajmniej jedna mała litera",
+            "number": "Przynajmniej jedna cyfra",
+            "special": "Przynajmniej jeden znak specjalny",
+            "noSpaces": "Bez spacji"
+          }
+        },
+        "export": {
+          "title": "Eksport danych",
+          "subtitle": "Eksportuj swoje dane osobowe",
+          "button": "Eksportuj dane",
+          "success": "Eksport danych został zainicjowany. Otrzymasz link do pobrania na e-mail."
+        }
+      }
+    },
+    "user": {
+      "profile": {
+        "my_profile": "Mój Profil",
+        "cv_info": "Informacje o CV",
+        "my_resumes": "Moje CV",
+        "my_templates": "Moje Szablony",
+        "subscriptions": "Subskrypcje",
+        "job_applications": "Aplikacje o Pracę"
+      }
+    }
+  },
+  "home": {
+    "templates": {
+      "title": "Popularne Szablony",
+      "subtitle": "Wybierz profesjonalny szablon, który podkreśli Twoje mocne strony"
+    },
+    "features": {
+      "templates": {
+        "title": "Profesjonalne Szablony",
+        "description": "Wybierz spośród różnych profesjonalnie zaprojektowanych szablonów, które podkreślą Twoje umiejętności i doświadczenie"
+      }
+    },
+    "faq": {
+      "title": "Często zadawane pytania",
+      "subtitle": "Odpowiedzi na najczęściej zadawane pytania dotyczące naszej usługi"
+    },
+    "benefits": {
+      "title": "Nasze zalety",
+      "subtitle": "Dlaczego tysiące kandydatów wybiera naszą usługę",
+      "items": {
+        "professional": {
+          "title": "Profesjonalne szablony",
+          "description": "Zaprojektowane z myślą o wymaganiach rekruterów i systemów ATS"
+        },
+        "easy": {
+          "title": "Szybko i łatwo",
+          "description": "Stwórz CV w 15 minut bez specjalnych umiejętności"
+        },
+        "mobile": {
+          "title": "Responsywny design",
+          "description": "Pełna wersja strony dostępna na każdym urządzeniu"
+        },
+        "download": {
+          "title": "Pobieranie w formacie PDF",
+          "description": "Pobierz gotowe CV w formacie PDF jednym kliknięciem"
+        },
+        "preview": {
+          "title": "Podgląd w czasie rzeczywistym",
+          "description": "Od razu zobacz, jak będzie wyglądać Twoje CV"
+        },
+        "customizable": {
+          "title": "Elastyczne dostosowanie",
+          "description": "Dostosuj każdy element CV do swoich potrzeb"
+        }
+      }
+    },
+    "hero": {
+      "title": "Stwórz profesjonalne CV w kilka minut",
+      "subtitle": "Wyróżnij się na tle innych kandydatów i znajdź wymarzoną pracę szybciej.",
+      "cta": "Stwórz CV",
+      "badge": "Stworzone z pasją"
+    },
+    "features": {
+      "title": "Dlaczego warto wybrać ResumeRise",
+      "subtitle": "Funkcje",
+      "templates": "Profesjonalne Szablony",
+      "customization": "Łatwa Personalizacja",
+      "tracking": "Śledzenie Aplikacji",
+      "security": "Bezpieczeństwo Danych",
+      "templatesSection": {
+        "title": "Profesjonalne szablony",
+        "description": "Wybierz spośród dziesiątek szablonów przyjaznych systemom ATS, opracowanych przez specjalistów HR."
+      },
+      "easyToUse": {
+        "title": "Łatwość użytkowania",
+        "description": "Stwórz profesjonalne CV w kilka minut dzięki naszemu intuicyjnemu edytorowi."
+      },
+      "professional": {
+        "title": "Profesjonalny efekt",
+        "description": "Otrzymaj dopracowane, profesjonalne CV, które wyróżni Cię wśród innych kandydatów."
+      },
+      "collaboration": {
+        "title": "Współpraca",
+        "description": "Pracuj nad CV razem z doradcami zawodowymi lub mentorami w czasie rzeczywistym."
+      },
+      "analytics": {
+        "title": "Analiza CV",
+        "description": "Otrzymuj natychmiastową informację zwrotną o mocnych stronach Twojego CV i obszarach do poprawy."
+      },
+      "mobileFriendly": {
+        "title": "Responsywny design",
+        "description": "Twórz i edytuj CV na dowolnym urządzeniu, w dowolnym miejscu i czasie."
+      }
+    },
+    "howItWorks": {
+      "title": "Jak to działa",
+      "subtitle": "Stwórz idealne CV w zaledwie kilka prostych kroków",
+      "steps": {
+        "signup": {
+          "title": "Utwórz konto",
+          "description": "Zarejestruj się za darmo i rozpocznij pracę w kilka sekund."
+        },
+        "selectTemplate": {
+          "title": "Wybierz szablon",
+          "description": "Wybierz z naszej kolekcji profesjonalnych szablonów."
+        },
+        "customize": {
+          "title": "Dostosuj CV",
+          "description": "Wprowadź swoje dane i dostosuj wygląd do swojego stylu."
+        },
+        "download": {
+          "title": "Pobierz i wyślij",
+          "description": "Pobierz w formacie PDF, Word lub tekstowym i rozpocznij odpowiedzi na oferty pracy."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Co mówią nasi użytkownicy",
+      "subtitle": "Dołącz do tysięcy profesjonalistów, którzy znaleźli pracę z naszymi CV",
+      "alex": {
+        "quote": "Dostałem pracę marzeń w firmie FAANG dzięki ResumeRise! Szablony są przyjazne dla systemów ATS, a edytor bardzo intuicyjny."
+      },
+      "sarah": {
+        "quote": "Jako rekruter od razu widzę CV stworzone w ResumeRise - zawsze wyglądają profesjonalnie i są dopracowane."
+      },
+      "david": {
+        "quote": "Funkcja analizy pomogła mi zoptymalizować CV i po tym dostałem 3 razy więcej zaproszeń na rozmowy kwalifikacyjne."
+      }
+    },
+    "ctaSection": {
+      "title": "Gotowy, by stworzyć profesjonalne CV?",
+      "subtitle": "Dołącz do tysięcy profesjonalistów, którzy znaleźli pracę z naszym kreatorem CV"
+    },
+    "cta": {
+      "primary": "Stwórz CV",
+      "secondary": "Zobacz szablony"
+    }
+  },
+  "resumeBuilder": {
+    "personalInfo": "Dane osobowe",
+    "fullName": "Imię i nazwisko",
+    "fullNamePlaceholder": "np. Jan Kowalski",
+    "profession": "Zawód",
+    "professionPlaceholder": "np. Programista Full Stack",
+    "email": "E-mail",
+    "emailPlaceholder": "twoj.email@example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+48 123 456 789",
+    "address": "Adres",
+    "addressPlaceholder": "ul. Przykładowa 1, 00-000 Warszawa",
+    "photo": "Zdjęcie",
+    "uploadPhoto": "Załaduj zdjęcie",
+    "dragDrop": "Przeciągnij i upuść plik tutaj lub kliknij, aby wybrać",
+    "fileTypes": "Akceptowane formaty: JPG, PNG (maks. 5MB)",
+    "removePhoto": "Usuń zdjęcie",
+    "profilePhoto": "Zdjęcie profilowe",
+    "summary": "Podsumowanie zawodowe",
+    "summaryPlaceholder": "Wpisz krótkie podsumowanie swojej kariery zawodowej, umiejętności i osiągnięć...",
+    "workExperience": "Doświadczenie zawodowe",
+    "addWorkExperience": "Dodaj doświadczenie",
+    "jobTitle": "Stanowisko",
+    "jobTitlePlaceholder": "np. Programista Full Stack",
+    "company": "Firma",
+    "companyPlaceholder": "Nazwa firmy",
+    "location": "Lokalizacja",
+    "locationPlaceholder": "Miasto, Kraj",
+    "startDate": "Data rozpoczęcia",
+    "endDate": "Data zakończenia",
+    "current": "Obecnie",
+    "description": "Opis",
+    "descriptionPlaceholder": "Opisz swoje obowiązki i osiągnięcia...",
+    "education": "Wykształcenie",
+    "addEducation": "Dodaj wykształcenie",
+    "degree": "Tytuł/Stopień",
+    "degreePlaceholder": "np. Inżynier Informatyki",
+    "school": "Szkoła/Uczelnia",
+    "schoolPlaceholder": "Nazwa szkoły/uczelni",
+    "fieldOfStudy": "Kierunek studiów",
+    "fieldOfStudyPlaceholder": "np. Informatyka",
+    "skills": "Umiejętności",
+    "addSkill": "Dodaj umiejętność",
+    "skillPlaceholder": "np. JavaScript, React, Node.js",
+    "languages": "Znajomość języków",
+    "addLanguage": "Dodaj język",
+    "noLanguagesAdded": "Nie dodano jeszcze języków",
+    "language": "Język",
+    "languagePlaceholder": "np. Angielski, Hiszpański, Niemiecki",
+    "proficiency": "Poziom zaawansowania",
+    "selectProficiency": "Wybierz poziom",
+    "proficiencyLevels": {
+      "beginner": "Początkujący (A1)",
+      "elementary": "Początkujący+ (A2)",
+      "intermediate": "Średnio zaawansowany (B1)",
+      "upperIntermediate": "Ponad średnio zaawansowany (B2)",
+      "advanced": "Zaawansowany (C1)",
+      "proficiency": "Biegły (C2)",
+      "native": "Ojczysty"
+    },
+    "removeLanguage": "Usuń język",
+    "certifications": "Certyfikaty",
+    "addCertification": "Dodaj certyfikat",
+    "certificationName": "Nazwa certyfikatu",
+    "certificationNamePlaceholder": "np. AWS Certified Solutions Architect",
+    "issuingOrganization": "Organizacja wydająca",
+    "issuingOrganizationPlaceholder": "Nazwa organizacji",
+    "issueDate": "Data uzyskania",
+    "expirationDate": "Data wygaśnięcia",
+    "expirationDatePlaceholder": "Opcjonalnie",
+    "credentialId": "Numer certyfikatu",
+    "credentialIdPlaceholder": "Opcjonalnie",
+    "credentialUrl": "Link do certyfikatu",
+    "credentialUrlPlaceholder": "https://",
+    "projects": "Projekty",
+    "addProject": "Dodaj projekt",
+    "projectName": "Nazwa projektu",
+    "projectNamePlaceholder": "Nazwa projektu",
+    "projectUrl": "Link do projektu",
+    "projectUrlPlaceholder": "https://",
+    "projectDescription": "Opis projektu",
+    "projectDescriptionPlaceholder": "Opisz swój projekt, technologie i Twoją rolę..."
+  },
+  "auth": {
+    "logout": "Wyloguj się",
+    "reset": {
+      "title": "Resetuj hasło",
+      "remembered": "Przypomniałeś sobie hasło?",
+      "signIn": "Zaloguj się",
+      "or": "lub",
+      "createAccount": "Utwórz konto",
+      "emailPlaceholder": "Wpisz swój email",
+      "newPassword": "Nowe hasło",
+      "newPasswordPlaceholder": "Wpisz nowe hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "confirmPasswordPlaceholder": "Powtórz hasło",
+      "changePassword": "Zmień hasło",
+      "sendLink": "Wyślij link do resetowania"
+    },
+    "createAccount": "Utwórz konto",
+    "alreadyHaveAccount": "Masz już konto?",
+    "signIn": "Zaloguj się",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "emailAddress": "Adres email",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "iAgreeTo": "Akceptuję",
+    "termsOfService": "Regulamin serwisu",
+    "and": "oraz",
+    "privacyPolicy": "Politykę prywatności",
+    "creatingAccount": "Tworzenie konta...",
+    "orContinueWith": "Lub kontynuuj przez",
+    "login": {
+      "title": "Logowanie",
+      "subtitle": "Zaloguj się na swoje konto",
+      "email": "Adres email",
+      "password": "Hasło",
+      "rememberMe": "Zapamiętaj mnie",
+      "forgotPassword": "Zapomniałeś hasła?",
+      "submit": "Zaloguj się",
+      "noAccount": "Nie masz konta?",
+      "signUp": "Zarejestruj się",
+      "orContinueWith": "Lub kontynuuj przez",
+      "errors": {
+        "required": "To pole jest wymagane",
+        "invalidEmail": "Proszę podać poprawny adres email",
+        "invalidCredentials": "Nieprawidłowy email lub hasło"
+      }
+    },
+    "register": {
+      "title": "Utwórz konto",
+      "subtitle": "Rozpocznij 14-dniowy darmowy okres próbny",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "Adres email",
+      "emailPlaceholder": "przyklad@email.com",
+      "password": "Hasło",
+      "passwordPlaceholder": "Wprowadź hasło",
+      "passwordRequirements": "Hasło musi zawierać co najmniej 8 znaków, w tym 1 wielką literę i 1 cyfrę",
+      "confirmPassword": "Potwierdź hasło",
+      "confirmPasswordPlaceholder": "Potwierdź swoje hasło",
+      "iAgreeTo": "Akceptuję",
+      "termsOfService": "Regulamin serwisu",
+      "privacyPolicy": "Politykę prywatności",
+      "and": "oraz",
+      "submit": "Załóż konto",
+      "submitting": "Tworzenie konta...",
+      "haveAccount": "Masz już konto?",
+      "signIn": "Zaloguj się",
+      "orContinueWith": "Lub kontynuuj przez",
+      "successTitle": "Rejestracja zakończona powodzeniem!",
+      "successMessage": "Sprawdź swoją skrzynkę email, aby zweryfikować adres.",
+      "verificationSent": "Email weryfikacyjny został wysłany na adres {email}",
+      "resendVerification": "Wyślij ponownie email weryfikacyjny",
+      "verificationResent": "Email weryfikacyjny został wysłany ponownie",
+      "errors": {
+        "required": "To pole jest wymagane",
+        "invalidEmail": "Proszę podać poprawny adres email",
+        "invalidName": "Imię powinno zawierać tylko litery i spacje",
+        "nameTooShort": "Imię musi zawierać co najmniej 2 znaki",
+        "nameTooLong": "Imię nie może przekraczać 100 znaków",
+        "passwordMismatch": "Hasła nie są identyczne",
+        "passwordTooShort": "Hasło musi zawierać co najmniej 8 znaków",
+        "passwordTooLong": "Hasło nie może przekraczać 50 znaków",
+        "passwordTooWeak": "Hasło jest zbyt słabe. Użyj dużych i małych liter, cyfr i znaków specjalnych",
+        "emailInUse": "Ten adres email jest już zarejestrowany",
+        "invalidCredentials": "Nieprawidłowy email lub hasło",
+        "verificationRequired": "Wymagana weryfikacja email",
+        "verificationExpired": "Link weryfikacyjny wygasł. Poproś o nowy",
+        "verificationFailed": "Nie udało się zweryfikować adresu email. Spróbuj ponownie",
+        "networkError": "Błąd połączenia. Sprawdź swoje połączenie i spróbuj ponownie",
+        "unknownError": "Wystąpił nieznany błąd. Spróbuj ponownie później"
+      },
+      "validation": {
+        "emailFormat": "Wprowadź poprawny adres email",
+        "passwordLength": "Hasło musi zawierać od 8 do 50 znaków",
+        "passwordUppercase": "Hasło musi zawierać co najmniej jedną wielką literę",
+        "passwordNumber": "Hasło musi zawierać co najmniej jedną cyfrę",
+        "passwordSpecialChar": "Hasło musi zawierać co najmniej jeden znak specjalny",
+        "passwordsMatch": "Hasła muszą być identyczne"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "description": "Żądana strona nie istnieje lub została przeniesiona.",
+    "cta": "Strona główna"
+  },
+  "errors": {
+    "notFound": "Nie znaleziono",
+    "serverError": "Błąd serwera. Proszę spróbować później.",
+    "pdfGenerationFailed": "Nie udało się wygenerować pliku PDF. Proszę spróbować ponownie.",
+    "docxGenerationFailed": "Nie udało się wygenerować pliku DOCX. Proszę spróbować ponownie.",
+    "pdfDownloadFailed": "Nie udało się pobrać pliku PDF. Proszę spróbować ponownie.",
+    "docxDownloadFailed": "Nie udało się pobrać pliku DOCX. Proszę spróbować ponownie."
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "saved_success": "Ustawienia zostały zapisane!",
+    "tabs": {
+      "account": "Konto",
+      "notifications": "Powiadomienia",
+      "billing": "Płatności"
+    },
+    "account": {
+      "title": "Ustawienia konta",
+      "email": "Adres e-mail",
+      "email_placeholder": "twoj@email.com",
+      "language": "Język",
+      "marketing_emails": "Otrzymuj wiadomości marketingowe",
+      "danger_zone": "Strefa niebezpieczeństwa",
+      "delete_account": "Usuń konto",
+      "delete_account_title": "Usunięcie konta",
+      "delete_account_message": "Czy na pewno chcesz usunąć swoje konto? Tej operacji nie można cofnąć, a wszystkie Twoje dane zostaną trwale usunięte.",
+      "export_data": "Eksportuj moje dane",
+      "export_success": "Twoje dane zostały pomyślnie wyeksportowane!"
+    },
+    "notifications": {
+      "title": "Ustawienia powiadomień",
+      "email_notifications": "Powiadomienia e-mail",
+      "new_features": "Nowe funkcje i aktualizacje",
+      "new_features_desc": "Bądź na bieżąco z nowymi funkcjami i ulepszeniami.",
+      "newsletter": "Newsletter",
+      "newsletter_desc": "Otrzymuj najnowsze porady i informacje branżowe.",
+      "product_updates": "Aktualizacje produktu",
+      "product_updates_desc": "Ważne informacje o naszych usługach.",
+      "push_notifications": "Powiadomienia push",
+      "push_enabled": "Włącz powiadomienia push",
+      "push_enabled_desc": "Otrzymuj powiadomienia w czasie rzeczywistym w swojej przeglądarce."
+    },
+    "billing": {
+      "title": "Płatności i subskrypcja",
+      "current_plan": "Twój obecny plan: {plan}",
+      "next_billing": "Data następnej płatności: {date}",
+      "payment_methods": "Metody płatności",
+      "add_payment_method": "Dodaj metodę płatności",
+      "billing_history": "Historia płatności",
+      "date": "Data",
+      "description": "Opis",
+      "amount": "Kwota",
+      "status": "Status",
+      "confirm_remove_payment": "Czy na pewno chcesz usunąć tę metodę płatności?",
+      "view": "Zobacz",
+      "paid": "Opłacono",
+      "pending": "Oczekujące",
+      "failed": "Nieudane"
+    }
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "previous": "Wstecz",
+    "submit": "Wyślij",
+    "reset": "Resetuj",
+    "search": "Szukaj",
+    "noResults": "Brak wyników",
+    "error": "Wystąpił błąd",
+    "success": "Sukces",
+    "warning": "Ostrzeżenie",
+    "info": "Informacja",
+    "confirm": "Potwierdź",
+    "view": "Widok",
+    "close": "Zamknij",
+    "preview": "Podgląd",
+    "duplicate": "Zduplikuj",
+    "published": "Opublikowane",
+    "draft": "Szkic",
+    "public": "Publiczne",
+    "private": "Prywatne",
+    "saving": "Zapisywanie...",
+    "deleting": "Usuwanie...",
+    "edit_profile": "Edytuj profil",
+    "save_changes": "Zapisz zmiany",
+    "errors": {
+      "something_went_wrong": "Coś poszło nie tak. Proszę spróbować ponownie później.",
+      "delete_failed": "Nie udało się usunąć. Proszę spróbować ponownie.",
+      "save_failed": "Nie udało się zapisać zmian. Proszę spróbować ponownie."
+    },
+    "areYouSure": "Jesteś pewien?",
+    "confirmReset": "Czy na pewno chcesz zresetować formularz? Wszystkie dane zostaną utracone.",
+    "yes": "Tak",
+    "no": "Nie",
+    "ok": "OK",
+    "add": "Dodaj",
+    "remove": "Usuń",
+    "downloadPDF": "Pobierz PDF",
+    "downloadDOCX": "Pobierz DOCX",
+    "comingSoon": "Funkcjonalność dostępna wkrótce!",
+    "start": "Początek",
+    "end": "Koniec",
+    "year": "Rok"
+  },
+  "user": {
+    "resumes": {
+      "create_new": "Utwórz nowe CV",
+      "last_updated": "Ostatnia aktualizacja",
+      "views": "wyświetleń",
+      "no_resumes": "Brak dostępnych CV",
+      "get_started": "Rozpocznij od utworzenia nowego CV.",
+      "create_resume": "Utwórz CV",
+      "delete_confirm": {
+        "title": "Usuń CV",
+        "message": "Czy na pewno chcesz usunąć to CV? Tej czynności nie można cofnąć."
+      }
+    },
+    "applications": {
+      "applications": "Aplikacje",
+      "interviews": "Rozmowy",
+      "upcoming_interviews": "Nadchodzące rozmowy",
+      "upcoming_interviews_description": "Zaplanowane rozmowy rekrutacyjne i ich szczegóły",
+      "no_upcoming_interviews": "Brak zaplanowanych rozmów",
+      "interview_calendar": "Kalendarz rozmów",
+      "status": {
+        "scheduled": "Zaplanowana",
+        "completed": "Zakończona",
+        "cancelled": "Anulowana",
+        "rescheduled": "Przełożona"
+      },
+      "interview_details": "Szczegóły rozmowy",
+      "position": "Stanowisko",
+      "company": "Firma",
+      "date_time": "Data i godzina",
+      "applied_date": "Data aplikacji",
+      "applied_on": "Zaaplikowano dnia",
+      "interview_date": "Data i godzina rozmowy",
+      "location": "Lokalizacja",
+      "open_in_maps": "Otwórz w Mapach",
+      "loading_map": "Ładowanie mapy...",
+      "interview_type": "Typ rozmowy",
+      "interviewer": "Rekruter",
+      "meeting_link": "Link do spotkania",
+      "notes": "Notatki",
+      "contacts": "Kontakty",
+      "view_job_posting": "Zobacz ofertę pracy",
+      "add_to_calendar": "Dodaj do kalendarza",
+      "join_meeting": "Dołącz do spotkania",
+      "no_interviews_scheduled": "Brak zaplanowanych rozmów"
+    },
+    "profile": {
+      "my_profile": "Mój Profil",
+      "cv_info": "Informacje o CV",
+      "my_resumes": "Moje CV",
+      "my_templates": "Moje Szablony",
+      "subscriptions": "Subskrypcje",
+      "job_applications": "Aplikacje o Pracę"
+    }
+  },
+  "theme": {
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "Systemowy"
+  },
+  "language": {
+    "en": "Angielski",
+    "ru": "Rosyjski",
+    "pl": "Polski"
+  },
+  "pricing": {
+    "title": "Przejrzyste ceny dla każdego",
+    "subtitle": "Wybierz plan, który Ci odpowiada. Anuluj w każdej chwili.",
+    "monthly": "Miesięcznie",
+    "annual": "Rocznie",
+    "save20": "Oszczędź 20%",
+    "perMonth": "/miesiąc",
+    "whatsIncluded": "Co zawiera",
+    "getStarted": "Zacznij za darmo",
+    "tiers": {
+      "free": {
+        "name": "Darmowy",
+        "description": "Wszystko, czego potrzebujesz, aby rozpocząć tworzenie CV",
+        "price": "0 zł",
+        "features": [
+          "Do 1 CV",
+          "Podstawowe szablony",
+          "Eksport do PDF",
+          "Wsparcie e-mail",
+          "Do 3 CV miesięcznie"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Dla osób poszukujących pracy, które chcą więcej funkcji",
+        "monthlyPrice": "49,99 zł",
+        "yearlyPrice": "39,99 zł",
+        "features": [
+          "Nielimitowana liczba CV",
+          "Wszystkie szablony premium",
+          "Eksport do PDF i Word",
+          "Wsparcie priorytetowe",
+          "Analiza CV",
+          "Wskazówki dotyczące optymalizacji"
+        ]
+      },
+      "enterprise": {
+        "name": "Dla firm",
+        "description": "Dla centrów kariery i rekruterów",
+        "price": "Indywidualna wycena",
+        "features": [
+          "Wszystkie funkcje Pro",
+          "Zarządzanie zespołem",
+          "Szablony z logotypem firmy",
+          "Dostęp do API",
+          "Opieka menedżera",
+          "Szkolenie zespołu"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Często zadawane pytania",
+      "items": [
+        {
+          "question": "Czy mogę później zmienić plan?",
+          "answer": "Tak, możesz przełączyć się na inny plan w dowolnym momencie w ustawieniach konta."
+        },
+        {
+          "question": "Jak działa darmowy okres?",
+          "answer": "Plan darmowy nie wymaga karty kredytowej i jest dostępny bez ograniczeń czasowych z podstawowymi funkcjami."
+        },
+        {
+          "question": "Jakie metody płatności akceptujecie?",
+          "answer": "Akceptujemy wszystkie główne karty kredytowe, w tym Visa, Mastercard i American Express, a także PayPal."
+        },
+        {
+          "question": "Jak anulować subskrypcję?",
+          "answer": "Możesz anulować subskrypcję w dowolnym momencie w ustawieniach konta, a pozostanie ona aktywna do końca opłaconego okresu."
+        },
+        {
+          "question": "Czy są zniżki dla studentów?",
+          "answer": "Tak, oferujemy 50% zniżki dla studentów po okazaniu ważnej legitymacji studenckiej."
+        }
+      ]
+    }
+  },
+  "resumeBuilder": {
+    "title": "Kreator CV",
+    "personalInfo": "Dane osobowe",
+    "fullName": "Imię i nazwisko",
+    "fullNamePlaceholder": "np. Jan Kowalski",
+    "profession": "Zawód",
+    "professionPlaceholder": "np. Programista Full Stack",
+    "email": "E-mail",
+    "emailPlaceholder": "twoj.email@przyklad.pl",
+    "phone": "Telefon",
+    "phonePlaceholder": "+48 123 456 789",
+    "location": "Lokalizacja",
+    "locationPlaceholder": "np. Warszawa, Polska",
+    "summary": "Podsumowanie zawodowe",
+    "summaryPlaceholder": "Krótko opisz swoje doświadczenie i umiejętności...",
+    "workExperience": "Doświadczenie zawodowe",
+    "addWorkExperience": "Dodaj doświadczenie",
+    "addExperience": "Dodaj doświadczenie",
+    "jobTitle": "Stanowisko",
+    "jobTitlePlaceholder": "Web Developer",
+    "company": "Firma",
+    "companyPlaceholder": "Nazwa firmy",
+    "startDate": "Data rozpoczęcia",
+    "endDate": "Data zakończenia",
+    "responsibilities": "Obowiązki i osiągnięcia",
+    "responsibilitiesPlaceholder": "Opisz swoje obowiązki i osiągnięcia",
+    "education": "Wykształcenie",
+    "addEducation": "Dodaj wykształcenie",
+    "degree": "Stopień",
+    "degreePlaceholder": "np. Licencjat z informatyki",
+    "institution": "Uczelnia",
+    "institutionPlaceholder": "Nazwa uczelni",
+    "graduationYear": "Rok ukończenia",
+    "skills": "Umiejętności",
+    "addSkill": "Dodaj umiejętność",
+    "addSkillPlaceholder": "Dodaj umiejętność",
+    "languages": "Języki obce",
+    "addLanguage": "Dodaj język",
+    "projects": "Projekty",
+    "addProject": "Dodaj projekt",
+    "certifications": "Certyfikaty",
+    "addCertification": "Dodaj certyfikat",
+    "interests": "Zainteresowania",
+    "addInterest": "Dodaj zainteresowanie",
+    "references": "Referencje",
+    "addReference": "Dodaj referencję",
+    "socialLinks": "Linki społecznościowe",
+    "addSocialLink": "Dodaj link",
+    "yourName": "Twoje imię i nazwisko",
+    "yourProfession": "Twój zawód",
+    "present": "Obecnie"
+  },
+  "static": {
+    "lastUpdated": "Ostatnia aktualizacja",
+    "backToTop": "Powrót na górę",
+    "onThisPage": "Na tej stronie",
+    "termsOfService": {
+      "title": "Warunki korzystania z usługi",
+      "subtitle": "Ostatnia aktualizacja: {date}",
+      "lastUpdated": "15 czerwca 2023",
+      "sections": {
+        "introduction": {
+          "title": "Wprowadzenie",
+          "content": "Witamy w ResumeRise. Niniejsze Warunki korzystania z usługi (\"Warunki\") regulują dostęp do naszej witryny internetowej, produktów i usług (\"Usługi\") oraz korzystanie z nich."
+        },
+        "accounts": {
+          "title": "Konta",
+          "content": "Aby uzyskać dostęp do niektórych funkcji naszych Usług, może być konieczne utworzenie konta.",
+          "accountCreation": {
+            "title": "Tworzenie konta",
+            "content": "Podczas tworzenia konta należy podać prawidłowe i kompletne dane. Użytkownik jest odpowiedzialny za zachowanie poufności swoich danych logowania."
+          },
+          "accountResponsibilities": {
+            "title": "Obowiązki związane z kontem",
+            "content": "Użytkownik jest odpowiedzialny za wszystkie działania podejmowane za pomocą swojego konta. Należy niezwłocznie powiadomić nas o każdym nieautoryzowanym użyciu konta."
+          }
+        },
+        "content": {
+          "title": "Treść",
+          "intro": "Nasze Usługi umożliwiają tworzenie, przesyłanie i udostępnianie treści.",
+          "userContent": {
+            "title": "Treść użytkownika",
+            "content": "Zachowujesz prawa własności intelektualnej do swoich treści."
+          },
+          "prohibitedContent": {
+            "title": "Zabronione treści",
+            "items": [
+              "Materiały nielegalne lub niezgodne z prawem",
+              "Treści objęte prawami autorskimi bez zezwolenia",
+              "Złośliwe oprogramowanie lub kod",
+              "Spam lub oszukańcze praktyki"
+            ]
+          }
+        },
+        "termination": {
+          "title": "Zakończenie",
+          "content": "Możemy natychmiast zakończyć lub zawiesić Twoje konto, bez uprzedzenia, w przypadku naruszenia niniejszych Warunków."
+        },
+        "changes": {
+          "title": "Zmiany w Warunkach",
+          "content": "Zastrzegamy sobie prawo do modyfikacji niniejszych Warunków w dowolnym momencie. Poinformujemy o istotnych zmianach."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "content": "Jeśli masz pytania dotyczące niniejszych Warunków, skontaktuj się z nami pod adresem legal@resumerise.com."
+        }
+      }
+    },
+    "privacyPolicy": {
+      "title": "Polityka prywatności",
+      "subtitle": "Ostatnia aktualizacja: {date}",
+      "lastUpdated": "15 czerwca 2023"
+    },
+    "cookiePolicy": {
+      "title": "Polityka plików cookie",
+      "subtitle": "Ostatnia aktualizacja: {date}",
+      "lastUpdated": "15 czerwca 2023"
+    },
+    "documentation": {
+      "title": "Dokumentacja",
+      "subtitle": "Dowiedz się, jak efektywnie korzystać z ResumeRise"
+    },
+    "guides": {
+      "title": "Przewodniki",
+      "subtitle": "Samouczki i przewodniki krok po kroku"
+    },
+    "apiStatus": {
+      "title": "Status API",
+      "subtitle": "Aktualny status naszych usług API"
+    }
+  },
+  "footer": {
+    "quickLinks": "Szybkie linki",
+    "resources": "Zasoby",
+    "blog": "Blog",
+    "documentation": "Dokumentacja",
+    "guides": "Przewodniki",
+    "apiStatus": "Status API",
+    "contact": "Kontakt",
+    "language": "Język",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki użytkowania",
+    "cookies": "Polityka plików cookie",
+    "copyright": "© {year} ResumeRise. Wszelkie prawa zastrzeżone.",
+    "rights": "Wszelkie prawa zastrzeżone"
+  },
+  "helpCenter": {
+    "title": "Centrum pomocy",
+    "subtitle": "Znajdź odpowiedzi na często zadawane pytania lub skorzystaj z pomocy naszego zespołu",
+    "searchPlaceholder": "Wprowadź swoje pytanie lub słowa kluczowe...",
+    "search": "Znajdź odpowiedzi",
+    "searchResults": "Znaleziono {count} wyników dla zapytania \"{query}\"",
+    "noResults": "Nie znaleziono wyników wyszukiwania. Spróbuj użyć innych słów kluczowych.",
+    "suggestedSearches": "Być może szukasz:",
+    "popularCategories": "Popularne kategorie",
+    "needMoreHelp": "Potrzebujesz dodatkowej pomocy?",
+    "contactUs": "Skontaktuj się z nami",
+    "contactDescription": "Nie znalazłeś odpowiedzi na swoje pytanie? Nasz zespół wsparcia jest dostępny 24/7, aby Ci pomóc.",
+    "contactButton": "Skontaktuj się z pomocą techniczną",
+    "popularArticles": "Popularne artykuły",
+    "allArticles": "Wszystkie artykuły",
+    "viewAll": "Zobacz wszystkie",
+    "lastUpdated": "Ostatnia aktualizacja",
+    "readTime": "Czas czytania",
+    "minutes": "min",
+    "wasHelpful": "Czy ten artykuł był pomocny?",
+    "yesButton": "Tak",
+    "noButton": "Nie",
+    "thankYouFeedback": "Dziękujemy za opinię!",
+    "difficulty": {
+      "beginner": "Początkujący",
+      "intermediate": "Średnio zaawansowany",
+      "advanced": "Zaawansowany"
+    },
+    "categories": {
+      "gettingStarted": {
+        "name": "Wprowadzenie",
+        "count": 5
+      },
+      "templates": {
+        "name": "Szablony",
+        "count": 8
+      },
+      "account": {
+        "name": "Konto",
+        "count": 4
+      },
+      "billing": {
+        "name": "Płatności",
+        "count": 3
+      },
+      "troubleshooting": {
+        "name": "Rozwiązywanie problemów",
+        "count": 6
+      }
+    },
+    "articles": {
+      "gettingStarted": [
+        {
+          "title": "Jak stworzyć pierwsze CV",
+          "excerpt": "Krok po kroku przewodnik po tworzeniu Twojego pierwszego CV",
+          "difficulty": "beginner",
+          "updatedAt": "2 dni temu"
+        },
+        {
+          "title": "Jak zaimportować istniejące CV",
+          "excerpt": "Przewodnik po przesyłaniu i konwertowaniu Twojego obecnego CV",
+          "difficulty": "beginner",
+          "updatedAt": "tydzień temu"
+        },
+        {
+          "title": "Wskazówki dotyczące optymalizacji CV pod kątem ATS",
+          "excerpt": "Jak sprawić, by Twoje CV zostało zauważone przez systemy automatycznej rekrutacji",
+          "difficulty": "intermediate",
+          "updatedAt": "3 dni temu"
+        }
+      ],
+      "templates": [
+        {
+          "title": "Jak wybrać odpowiedni szablon",
+          "excerpt": "Przewodnik po wyborze optymalnego szablonu dla Twojej branży",
+          "difficulty": "beginner",
+          "updatedAt": "5 dni temu"
+        },
+        {
+          "title": "Dostosowywanie kolorów i czcionek",
+          "excerpt": "Jak spersonalizować wygląd Twojego CV",
+          "difficulty": "intermediate",
+          "updatedAt": "tydzień temu"
+        }
+      ],
+      "account": [
+        {
+          "title": "Jak zresetować hasło",
+          "excerpt": "Krok po kroku przewodnik po odzyskiwaniu dostępu do konta",
+          "difficulty": "beginner",
+          "updatedAt": "2 dni temu"
+        },
+        {
+          "title": "Ustawienia prywatności",
+          "excerpt": "Jak zarządzać ustawieniami prywatności Twojego konta",
+          "difficulty": "intermediate",
+          "updatedAt": "tydzień temu"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Nie znalazłeś odpowiedzi?",
+      "description": "Nasz zespół wsparcia zawsze chętnie pomoże Ci z każdym pytaniem.",
+      "email": "support@resumerise.pl",
+      "phone": "+48 800 123 456",
+      "hours": "Pon-Pt: 9:00 - 17:00"
+    },
+    "status": {
+      "title": "Status usługi",
+      "allSystems": "Wszystkie systemy działają prawidłowo",
+      "incidents": "Incydenty",
+      "maintenance": "Prace konserwacyjne"
+    },
+    "feedback": {
+      "title": "Opinia",
+      "subtitle": "Nie znalazłeś odpowiedzi na swoje pytanie? Napisz do nas, a postaramy się pomóc.",
+      "name": "Twoje imię",
+      "email": "Adres e-mail do kontaktu",
+      "subject": "Temat",
+      "message": "Opisz swój problem lub pytanie",
+      "submit": "Wyślij wiadomość",
+      "success": "Dziękujemy za wiadomość! Skontaktujemy się z Tobą wkrótce.",
+      "error": "Wystąpił błąd podczas wysyłania wiadomości. Proszę spróbować ponownie później.",
+      "validation": {
+        "required": "To pole jest wymagane",
+        "email": "Proszę podać poprawny adres e-mail",
+        "minLength": "Minimalna długość to {length} znaków",
+        "maxLength": "Maksymalna długość to {length} znaków"
+      },
+      "topics": {
+        "general": "Pytanie ogólne",
+        "bug": "Zgłoś błąd",
+        "feature": "Zaproponuj funkcję",
+        "billing": "Pytanie dotyczące płatności",
+        "other": "Inne"
+      }
+    }
+  },
+  "profile": {
+    "tabs": {
+      "main": "Główne",
+      "security": "Bezpieczeństwo",
+      "export": "Eksport"
+    },
+    "main": {
+      "title": "Informacje o profilu",
+      "subtitle": "Zarządzaj swoimi informacjami osobistymi i preferencjami",
+      "edit": "Edytuj profil",
+      "name": "Pełna nazwa",
+      "email": "Adres e-mail",
+      "verified": "Zweryfikowany",
+      "notVerified": "Niezweryfikowany",
+      "resend": "Wyślij ponownie weryfikację",
+      "phone": "Numer telefonu",
+      "country": "Kraj",
+      "city": "Miasto",
+      "publicProfile": "Ustaw profil jako publiczny",
+      "role": "Rola",
+      "registered": "Zarejestrowany",
+      "lastLogin": "Ostatnie logowanie"
+    },
+    "security": {
+      "changePassword": "Zmień hasło",
+      "passwordAdvice": "Użyj silnego hasła do ochrony konta",
+      "currentPassword": "Obecne hasło",
+      "newPassword": "Nowe hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "passwordStrength": {
+        "weak": "Słabe",
+        "medium": "Średnie",
+        "strong": "Silne",
+        "veryStrong": "Bardzo silne"
+      }
+    },
+    "export": {
+      "title": "Eksport danych",
+      "subtitle": "Eksportuj swoje dane osobowe",
+      "button": "Eksportuj dane",
+      "success": "Eksport danych został zainicjowany. Otrzymasz link do pobrania na e-mail."
+    }
+  }
+}
