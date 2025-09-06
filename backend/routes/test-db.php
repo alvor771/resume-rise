@@ -3,9 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use App\Http\Controllers\ProfileController;
 
-// Test database connection and table status
 Route::get('/test-db', function () {
     try {
         // Test database connection
@@ -22,19 +20,12 @@ Route::get('/test-db', function () {
         
         return response()->json([
             'connection' => 'OK',
-            'tables_exist' => $tables,
-            'migrations' => DB::table('migrations')->get()
+            'tables_exist' => $tables
         ]);
     } catch (\Exception $e) {
         return response()->json([
             'error' => $e->getMessage(),
-            'connection' => 'Failed',
-            'db_connection' => config('database.default'),
-            'db_database' => config('database.connections.' . config('database.default') . '.database')
+            'connection' => 'Failed'
         ], 500);
     }
-});
-
-Route::get('/', function () {
-    return view('welcome');
 });

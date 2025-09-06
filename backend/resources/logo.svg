@@ -1,0 +1,36 @@
+<svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background highlight -->
+  <rect x="5" y="5" width="70" height="50" rx="25" fill="#7B61FF" fill-opacity="0.1"/>
+
+  <!-- Wave pattern made of dots -->
+  <g fill="#FFFFFF">
+    <!-- First wave line -->
+    <circle cx="35" cy="30" r="2" fill-opacity="0.9"/>
+    <circle cx="40" cy="28" r="2" fill-opacity="0.8"/>
+    <circle cx="45" cy="26" r="2" fill-opacity="0.9"/>
+    <circle cx="50" cy="28" r="2" fill-opacity="0.7"/>
+    <circle cx="55" cy="30" r="2" fill-opacity="0.8"/>
+    
+    <!-- Second wave line (slightly offset) -->
+    <circle cx="35" cy="38" r="2" fill-opacity="0.7"/>
+    <circle cx="40" cy="36" r="2" fill-opacity="0.6"/>
+    <circle cx="45" cy="34" r="2" fill-opacity="0.7"/>
+    <circle cx="50" cy="36" r="2" fill-opacity="0.5"/>
+    <circle cx="55" cy="38" r="2" fill-opacity="0.6"/>
+  </g>
+  
+  <defs>
+    <filter id="shadow" x="10" y="10" width="60" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Text with better typography -->
+  <text x="80" y="32" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5" fill="#111827">Resume Rise</text>
+  <text x="80" y="48" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#4B5563" letter-spacing="0.5">ELEVATE YOUR CAREER</text>
+  
+  <!-- Subtle decorative elements -->
+  <circle cx="220" cy="15" r="2" fill="#7B61FF" fill-opacity="0.3"/>
+  <circle cx="230" cy="25" r="3" fill="#A78BFA" fill-opacity="0.3"/>
+  <circle cx="225" cy="40" r="2" fill="#7B61FF" fill-opacity="0.3"/>
+</svg>

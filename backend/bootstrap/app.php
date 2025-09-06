@@ -16,8 +16,15 @@ return Application::configure(basePath: dirname(__DIR__))
             'api/*',
         ]);
         
+        // Apply MaintenanceMode middleware to all requests
         $middleware->append([
             \Illuminate\Http\Middleware\HandleCors::class,
+            \App\Http\Middleware\MaintenanceMode::class,
+        ]);
+        
+        // Register middleware aliases
+        $middleware->alias([
+            'admin' => \App\Http\Middleware\AdminOnly::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

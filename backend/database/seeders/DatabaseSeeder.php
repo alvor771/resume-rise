@@ -13,16 +13,28 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Create test user
-        // $user = User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example2.com',
-        // ]);
-
-        // Seed menu items
+        // Create admin user and roles first
+        $this->call([
+            AdminUserSeeder::class,
+        ]);
+        
+        // Then seed RBAC data
+        $this->call([
+            RBACSeeder::class,
+        ]);
+        
+        // Then seed other data
         $this->call([
             MenuItemsTableSeeder::class,
             TemplatesTableSeeder::class,
+            CompanyAndVacancySeeder::class
         ]);
+        
+        // Create test user (uncomment if needed)
+        // $user = User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        //     'password' => Hash::make('password'),
+        // ]);
     }
 }
